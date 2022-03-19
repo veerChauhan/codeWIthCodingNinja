@@ -111,6 +111,7 @@
 		FA46705527E4862B00AB3529 /* CodingNinja */ = {
 			isa = PBXGroup;
 			children = (
+				FAD9793B27E614BB005DF616 /* patternProblem */,
 				FA46705627E4862B00AB3529 /* main.cpp */,
 				FA46706027E4890F00AB3529 /* oddEven.cpp */,
 				FA46706127E4890F00AB3529 /* oddEven.hpp */,
@@ -124,14 +125,21 @@
 				FA46706D27E4BAEB00AB3529 /* primeNumber.cpp */,
 				FA46706F27E4BFE100AB3529 /* sumOfPositiveN.cpp */,
 				FA18DD3327E4C5D1009AD794 /* fToCelWithMedian.cpp */,
+				FAD9792227E5AF49005DF616 /* salaryCalculator.cpp */,
+				FAD9792427E5BB64005DF616 /* evenOddDigitSum.cpp */,
+				FAD9792627E5C016005DF616 /* Power.cpp */,
+			);
+			path = CodingNinja;
+			sourceTree = "<group>";
+		};
+		FAD9793B27E614BB005DF616 /* patternProblem */ = {
+			isa = PBXGroup;
+			children = (
 				FAD9791827E4FCA4005DF616 /* pattern1.cpp */,
 				FAD9791A27E4FF12005DF616 /* pattern2.cpp */,
 				FAD9791C27E50311005DF616 /* pattern3.cpp */,
 				FAD9791E27E50837005DF616 /* pattern5.cpp */,
 				FAD9792027E50E53005DF616 /* pattern6.cpp */,
-				FAD9792227E5AF49005DF616 /* salaryCalculator.cpp */,
-				FAD9792427E5BB64005DF616 /* evenOddDigitSum.cpp */,
-				FAD9792627E5C016005DF616 /* Power.cpp */,
 				FAD9792827E5C4F4005DF616 /* sqaurePatter.cpp */,
 				FAD9792A27E5DC2C005DF616 /* pattern7.cpp */,
 				FAD9792C27E5DD26005DF616 /* pattern9.cpp */,
@@ -141,7 +149,7 @@
 				FAD9793727E610C8005DF616 /* pattern13.cpp */,
 				FAD9793927E613C1005DF616 /* pattern14.cpp */,
 			);
-			path = CodingNinja;
+			path = patternProblem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
