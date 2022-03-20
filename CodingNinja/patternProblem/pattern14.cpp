@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <iostream>
 using namespace std;
-int main(){
+void pattern14(){
     
     cout << "Enter the height of the Paatern : " ;
     int height;

@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-void sqarePattern() {
+void pattern8() {
     
     cout << "Enter the height of pattern : " ;
     int height;

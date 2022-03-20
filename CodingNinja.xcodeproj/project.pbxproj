@@ -26,7 +26,7 @@
 		FAD9792327E5AF49005DF616 /* salaryCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9792227E5AF49005DF616 /* salaryCalculator.cpp */; };
 		FAD9792527E5BB64005DF616 /* evenOddDigitSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9792427E5BB64005DF616 /* evenOddDigitSum.cpp */; };
 		FAD9792727E5C016005DF616 /* Power.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9792627E5C016005DF616 /* Power.cpp */; };
-		FAD9792927E5C4F4005DF616 /* sqaurePatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9792827E5C4F4005DF616 /* sqaurePatter.cpp */; };
+		FAD9792927E5C4F4005DF616 /* pattern8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9792827E5C4F4005DF616 /* pattern8.cpp */; };
 		FAD9792B27E5DC2C005DF616 /* pattern7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9792A27E5DC2C005DF616 /* pattern7.cpp */; };
 		FAD9792D27E5DD26005DF616 /* pattern9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9792C27E5DD26005DF616 /* pattern9.cpp */; };
 		FAD9793227E5DD86005DF616 /* pattern10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793127E5DD86005DF616 /* pattern10.cpp */; };
@@ -34,6 +34,7 @@
 		FAD9793627E5E616005DF616 /* pattern12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793527E5E616005DF616 /* pattern12.cpp */; };
 		FAD9793827E610C8005DF616 /* pattern13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793727E610C8005DF616 /* pattern13.cpp */; };
 		FAD9793A27E613C1005DF616 /* pattern14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793927E613C1005DF616 /* pattern14.cpp */; };
+		FAD9793D27E6E33E005DF616 /* pattern15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793C27E6E33E005DF616 /* pattern15.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,7 +72,7 @@
 		FAD9792227E5AF49005DF616 /* salaryCalculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = salaryCalculator.cpp; sourceTree = "<group>"; };
 		FAD9792427E5BB64005DF616 /* evenOddDigitSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = evenOddDigitSum.cpp; sourceTree = "<group>"; };
 		FAD9792627E5C016005DF616 /* Power.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Power.cpp; sourceTree = "<group>"; };
-		FAD9792827E5C4F4005DF616 /* sqaurePatter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sqaurePatter.cpp; sourceTree = "<group>"; };
+		FAD9792827E5C4F4005DF616 /* pattern8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern8.cpp; sourceTree = "<group>"; };
 		FAD9792A27E5DC2C005DF616 /* pattern7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern7.cpp; sourceTree = "<group>"; };
 		FAD9792C27E5DD26005DF616 /* pattern9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern9.cpp; sourceTree = "<group>"; };
 		FAD9793127E5DD86005DF616 /* pattern10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern10.cpp; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 		FAD9793527E5E616005DF616 /* pattern12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern12.cpp; sourceTree = "<group>"; };
 		FAD9793727E610C8005DF616 /* pattern13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern13.cpp; sourceTree = "<group>"; };
 		FAD9793927E613C1005DF616 /* pattern14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern14.cpp; sourceTree = "<group>"; };
+		FAD9793C27E6E33E005DF616 /* pattern15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern15.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,14 +142,15 @@
 				FAD9791C27E50311005DF616 /* pattern3.cpp */,
 				FAD9791E27E50837005DF616 /* pattern5.cpp */,
 				FAD9792027E50E53005DF616 /* pattern6.cpp */,
-				FAD9792827E5C4F4005DF616 /* sqaurePatter.cpp */,
 				FAD9792A27E5DC2C005DF616 /* pattern7.cpp */,
+				FAD9792827E5C4F4005DF616 /* pattern8.cpp */,
 				FAD9792C27E5DD26005DF616 /* pattern9.cpp */,
 				FAD9793127E5DD86005DF616 /* pattern10.cpp */,
 				FAD9793327E5DE8A005DF616 /* pattern11.cpp */,
 				FAD9793527E5E616005DF616 /* pattern12.cpp */,
 				FAD9793727E610C8005DF616 /* pattern13.cpp */,
 				FAD9793927E613C1005DF616 /* pattern14.cpp */,
+				FAD9793C27E6E33E005DF616 /* pattern15.cpp */,
 			);
 			path = patternProblem;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			files = (
 				FA46706C27E4BA3900AB3529 /* allNumToN.cpp in Sources */,
 				FAD9793A27E613C1005DF616 /* pattern14.cpp in Sources */,
+				FAD9793D27E6E33E005DF616 /* pattern15.cpp in Sources */,
 				FAD9792127E50E53005DF616 /* pattern6.cpp in Sources */,
 				FAD9792B27E5DC2C005DF616 /* pattern7.cpp in Sources */,
 				FAD9792727E5C016005DF616 /* Power.cpp in Sources */,
@@ -233,7 +237,7 @@
 				FA18DD3427E4C5D1009AD794 /* fToCelWithMedian.cpp in Sources */,
 				FA46706427E49C1A00AB3529 /* typecast.cpp in Sources */,
 				FAD9792327E5AF49005DF616 /* salaryCalculator.cpp in Sources */,
-				FAD9792927E5C4F4005DF616 /* sqaurePatter.cpp in Sources */,
+				FAD9792927E5C4F4005DF616 /* pattern8.cpp in Sources */,
 				FAD9793427E5DE8A005DF616 /* pattern11.cpp in Sources */,
 				FA46705F27E4872400AB3529 /* sum.cpp in Sources */,
 			);
