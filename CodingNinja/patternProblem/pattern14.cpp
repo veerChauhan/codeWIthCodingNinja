@@ -6,3 +6,44 @@
 //
 
 #include <stdio.h>
+#include <iostream>
+using namespace std;
+int main(){
+    
+    cout << "Enter the height of the Paatern : " ;
+    int height;
+    cin >> height;
+    int i = 1;
+    
+    while(i <= height) {
+        
+        int space = 1;
+        while(space <= height-i){
+            cout << " ";
+            space++;
+        }
+        int j = 1;
+        while(j <= i){
+            cout << "*";
+            j++;
+        }
+        j = i-1;
+        
+        while(j>=1){
+            cout << "*";
+            j--;
+        }
+        cout << endl;
+        i++;
+        
+        
+    }
+}
+/*
+
+        *
+       ***
+      *****
+     *******
+ 
+ */
