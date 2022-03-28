@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA054AFD27EBA964007B7AE9 /* BinaryToDecimal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA054AFC27EBA964007B7AE9 /* BinaryToDecimal.cpp */; };
+		FA054AFF27EBAA30007B7AE9 /* DecimalToBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA054AFE27EBAA30007B7AE9 /* DecimalToBinary.cpp */; };
 		FA18DD3427E4C5D1009AD794 /* fToCelWithMedian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA18DD3327E4C5D1009AD794 /* fToCelWithMedian.cpp */; };
 		FA46705727E4862B00AB3529 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46705627E4862B00AB3529 /* main.cpp */; };
 		FA46705F27E4872400AB3529 /* sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46705D27E4872400AB3529 /* sum.cpp */; };
@@ -18,6 +20,9 @@
 		FA46706C27E4BA3900AB3529 /* allNumToN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46706B27E4BA3900AB3529 /* allNumToN.cpp */; };
 		FA46706E27E4BAEB00AB3529 /* primeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46706D27E4BAEB00AB3529 /* primeNumber.cpp */; };
 		FA46707027E4BFE100AB3529 /* sumOfPositiveN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46706F27E4BFE100AB3529 /* sumOfPositiveN.cpp */; };
+		FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */; };
+		FAB162B427EA41D500972B30 /* AllPrime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB162B327EA41D500972B30 /* AllPrime.cpp */; };
+		FAB162B627EA55D500972B30 /* ReverseNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB162B527EA55D500972B30 /* ReverseNumber.cpp */; };
 		FAD9791927E4FCA4005DF616 /* pattern1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9791827E4FCA4005DF616 /* pattern1.cpp */; };
 		FAD9791B27E4FF12005DF616 /* pattern2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9791A27E4FF12005DF616 /* pattern2.cpp */; };
 		FAD9791D27E50311005DF616 /* pattern3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9791C27E50311005DF616 /* pattern3.cpp */; };
@@ -35,6 +40,7 @@
 		FAD9793827E610C8005DF616 /* pattern13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793727E610C8005DF616 /* pattern13.cpp */; };
 		FAD9793A27E613C1005DF616 /* pattern14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793927E613C1005DF616 /* pattern14.cpp */; };
 		FAD9793D27E6E33E005DF616 /* pattern15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793C27E6E33E005DF616 /* pattern15.cpp */; };
+		FAD9793F27E716EF005DF616 /* pattern16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793E27E716EF005DF616 /* pattern16.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +56,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA054AFC27EBA964007B7AE9 /* BinaryToDecimal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryToDecimal.cpp; sourceTree = "<group>"; };
+		FA054AFE27EBAA30007B7AE9 /* DecimalToBinary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DecimalToBinary.cpp; sourceTree = "<group>"; };
 		FA18DD3327E4C5D1009AD794 /* fToCelWithMedian.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fToCelWithMedian.cpp; sourceTree = "<group>"; };
 		FA46705327E4862B00AB3529 /* CodingNinja */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingNinja; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA46705627E4862B00AB3529 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -64,6 +72,9 @@
 		FA46706B27E4BA3900AB3529 /* allNumToN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = allNumToN.cpp; sourceTree = "<group>"; };
 		FA46706D27E4BAEB00AB3529 /* primeNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primeNumber.cpp; sourceTree = "<group>"; };
 		FA46706F27E4BFE100AB3529 /* sumOfPositiveN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sumOfPositiveN.cpp; sourceTree = "<group>"; };
+		FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SqaureRoot.cpp; sourceTree = "<group>"; };
+		FAB162B327EA41D500972B30 /* AllPrime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllPrime.cpp; sourceTree = "<group>"; };
+		FAB162B527EA55D500972B30 /* ReverseNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseNumber.cpp; sourceTree = "<group>"; };
 		FAD9791827E4FCA4005DF616 /* pattern1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern1.cpp; sourceTree = "<group>"; };
 		FAD9791A27E4FF12005DF616 /* pattern2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern2.cpp; sourceTree = "<group>"; };
 		FAD9791C27E50311005DF616 /* pattern3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern3.cpp; sourceTree = "<group>"; };
@@ -81,6 +92,7 @@
 		FAD9793727E610C8005DF616 /* pattern13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern13.cpp; sourceTree = "<group>"; };
 		FAD9793927E613C1005DF616 /* pattern14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern14.cpp; sourceTree = "<group>"; };
 		FAD9793C27E6E33E005DF616 /* pattern15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern15.cpp; sourceTree = "<group>"; };
+		FAD9793E27E716EF005DF616 /* pattern16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern16.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +125,7 @@
 		FA46705527E4862B00AB3529 /* CodingNinja */ = {
 			isa = PBXGroup;
 			children = (
+				FAB162B227EA41C600972B30 /* loop */,
 				FAD9793B27E614BB005DF616 /* patternProblem */,
 				FA46705627E4862B00AB3529 /* main.cpp */,
 				FA46706027E4890F00AB3529 /* oddEven.cpp */,
@@ -134,6 +147,18 @@
 			path = CodingNinja;
 			sourceTree = "<group>";
 		};
+		FAB162B227EA41C600972B30 /* loop */ = {
+			isa = PBXGroup;
+			children = (
+				FAB162B327EA41D500972B30 /* AllPrime.cpp */,
+				FAB162B527EA55D500972B30 /* ReverseNumber.cpp */,
+				FA054AFC27EBA964007B7AE9 /* BinaryToDecimal.cpp */,
+				FA054AFE27EBAA30007B7AE9 /* DecimalToBinary.cpp */,
+				FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */,
+			);
+			path = loop;
+			sourceTree = "<group>";
+		};
 		FAD9793B27E614BB005DF616 /* patternProblem */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +176,7 @@
 				FAD9793727E610C8005DF616 /* pattern13.cpp */,
 				FAD9793927E613C1005DF616 /* pattern14.cpp */,
 				FAD9793C27E6E33E005DF616 /* pattern15.cpp */,
+				FAD9793E27E716EF005DF616 /* pattern16.cpp */,
 			);
 			path = patternProblem;
 			sourceTree = "<group>";
@@ -216,6 +242,7 @@
 				FAD9793A27E613C1005DF616 /* pattern14.cpp in Sources */,
 				FAD9793D27E6E33E005DF616 /* pattern15.cpp in Sources */,
 				FAD9792127E50E53005DF616 /* pattern6.cpp in Sources */,
+				FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */,
 				FAD9792B27E5DC2C005DF616 /* pattern7.cpp in Sources */,
 				FAD9792727E5C016005DF616 /* Power.cpp in Sources */,
 				FAD9792D27E5DD26005DF616 /* pattern9.cpp in Sources */,
@@ -229,15 +256,20 @@
 				FAD9791B27E4FF12005DF616 /* pattern2.cpp in Sources */,
 				FA46705727E4862B00AB3529 /* main.cpp in Sources */,
 				FA46706227E4890F00AB3529 /* oddEven.cpp in Sources */,
+				FAB162B427EA41D500972B30 /* AllPrime.cpp in Sources */,
 				FAD9791F27E50837005DF616 /* pattern5.cpp in Sources */,
 				FA46707027E4BFE100AB3529 /* sumOfPositiveN.cpp in Sources */,
 				FAD9793627E5E616005DF616 /* pattern12.cpp in Sources */,
 				FA46706E27E4BAEB00AB3529 /* primeNumber.cpp in Sources */,
+				FAB162B627EA55D500972B30 /* ReverseNumber.cpp in Sources */,
 				FAD9791927E4FCA4005DF616 /* pattern1.cpp in Sources */,
 				FA18DD3427E4C5D1009AD794 /* fToCelWithMedian.cpp in Sources */,
 				FA46706427E49C1A00AB3529 /* typecast.cpp in Sources */,
 				FAD9792327E5AF49005DF616 /* salaryCalculator.cpp in Sources */,
+				FA054AFD27EBA964007B7AE9 /* BinaryToDecimal.cpp in Sources */,
 				FAD9792927E5C4F4005DF616 /* pattern8.cpp in Sources */,
+				FAD9793F27E716EF005DF616 /* pattern16.cpp in Sources */,
+				FA054AFF27EBAA30007B7AE9 /* DecimalToBinary.cpp in Sources */,
 				FAD9793427E5DE8A005DF616 /* pattern11.cpp in Sources */,
 				FA46705F27E4872400AB3529 /* sum.cpp in Sources */,
 			);
