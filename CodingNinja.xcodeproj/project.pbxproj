@@ -21,6 +21,8 @@
 		FA46706E27E4BAEB00AB3529 /* primeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46706D27E4BAEB00AB3529 /* primeNumber.cpp */; };
 		FA46707027E4BFE100AB3529 /* sumOfPositiveN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46706F27E4BFE100AB3529 /* sumOfPositiveN.cpp */; };
 		FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */; };
+		FA91B31D27F398E800283DA5 /* ValidSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31C27F398E800283DA5 /* ValidSequence.cpp */; };
+		FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31E27F4682C00283DA5 /* pattern17.cpp */; };
 		FAB162B427EA41D500972B30 /* AllPrime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB162B327EA41D500972B30 /* AllPrime.cpp */; };
 		FAB162B627EA55D500972B30 /* ReverseNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB162B527EA55D500972B30 /* ReverseNumber.cpp */; };
 		FAD9791927E4FCA4005DF616 /* pattern1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9791827E4FCA4005DF616 /* pattern1.cpp */; };
@@ -73,6 +75,8 @@
 		FA46706D27E4BAEB00AB3529 /* primeNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primeNumber.cpp; sourceTree = "<group>"; };
 		FA46706F27E4BFE100AB3529 /* sumOfPositiveN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sumOfPositiveN.cpp; sourceTree = "<group>"; };
 		FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SqaureRoot.cpp; sourceTree = "<group>"; };
+		FA91B31C27F398E800283DA5 /* ValidSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSequence.cpp; sourceTree = "<group>"; };
+		FA91B31E27F4682C00283DA5 /* pattern17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern17.cpp; sourceTree = "<group>"; };
 		FAB162B327EA41D500972B30 /* AllPrime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllPrime.cpp; sourceTree = "<group>"; };
 		FAB162B527EA55D500972B30 /* ReverseNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseNumber.cpp; sourceTree = "<group>"; };
 		FAD9791827E4FCA4005DF616 /* pattern1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern1.cpp; sourceTree = "<group>"; };
@@ -155,6 +159,7 @@
 				FA054AFC27EBA964007B7AE9 /* BinaryToDecimal.cpp */,
 				FA054AFE27EBAA30007B7AE9 /* DecimalToBinary.cpp */,
 				FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */,
+				FA91B31C27F398E800283DA5 /* ValidSequence.cpp */,
 			);
 			path = loop;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				FAD9791827E4FCA4005DF616 /* pattern1.cpp */,
+				FA91B31E27F4682C00283DA5 /* pattern17.cpp */,
 				FAD9791A27E4FF12005DF616 /* pattern2.cpp */,
 				FAD9791C27E50311005DF616 /* pattern3.cpp */,
 				FAD9791E27E50837005DF616 /* pattern5.cpp */,
@@ -260,11 +266,13 @@
 				FAD9791F27E50837005DF616 /* pattern5.cpp in Sources */,
 				FA46707027E4BFE100AB3529 /* sumOfPositiveN.cpp in Sources */,
 				FAD9793627E5E616005DF616 /* pattern12.cpp in Sources */,
+				FA91B31D27F398E800283DA5 /* ValidSequence.cpp in Sources */,
 				FA46706E27E4BAEB00AB3529 /* primeNumber.cpp in Sources */,
 				FAB162B627EA55D500972B30 /* ReverseNumber.cpp in Sources */,
 				FAD9791927E4FCA4005DF616 /* pattern1.cpp in Sources */,
 				FA18DD3427E4C5D1009AD794 /* fToCelWithMedian.cpp in Sources */,
 				FA46706427E49C1A00AB3529 /* typecast.cpp in Sources */,
+				FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */,
 				FAD9792327E5AF49005DF616 /* salaryCalculator.cpp in Sources */,
 				FA054AFD27EBA964007B7AE9 /* BinaryToDecimal.cpp in Sources */,
 				FAD9792927E5C4F4005DF616 /* pattern8.cpp in Sources */,

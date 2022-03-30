@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <iostream>
 using namespace std;
-int main(){
+void sqaureRoot(){
     
     cout << "Enter the  number : ";
     int n;
