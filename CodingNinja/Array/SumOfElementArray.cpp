@@ -9,7 +9,7 @@
 #include <iostream>
 #include <climits>
 using namespace std;
-int main(){
+int sumOdElementArray(){
     int input[100];
     int result = 0;
     cout << "Enter the size of Array : ";
@@ -23,4 +23,5 @@ int main(){
         result = result + input[i];
     }
     cout << "Sum of element are : " << result <<endl ;
+    return result;
 }
