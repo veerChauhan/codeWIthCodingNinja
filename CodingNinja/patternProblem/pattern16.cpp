@@ -22,7 +22,7 @@
 using namespace std;
 
 
-void pattern17(){
+void pattern18(){
     
     cout << "Enter the height of the pattern: ";
     
