@@ -27,6 +27,7 @@
 		FA91B32427F6461200283DA5 /* LargestElementInArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B32327F6461200283DA5 /* LargestElementInArray.cpp */; };
 		FA91B32627F8179500283DA5 /* SumOfElementArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B32527F8179500283DA5 /* SumOfElementArray.cpp */; };
 		FA91B32827F86A3C00283DA5 /* LinierSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B32727F86A3C00283DA5 /* LinierSearch.cpp */; };
+		FA91B33427F8F42F00283DA5 /* ArrangementOfArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B33327F8F42F00283DA5 /* ArrangementOfArray.cpp */; };
 		FAB162B427EA41D500972B30 /* AllPrime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB162B327EA41D500972B30 /* AllPrime.cpp */; };
 		FAB162B627EA55D500972B30 /* ReverseNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB162B527EA55D500972B30 /* ReverseNumber.cpp */; };
 		FAD9791927E4FCA4005DF616 /* pattern1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9791827E4FCA4005DF616 /* pattern1.cpp */; };
@@ -85,6 +86,7 @@
 		FA91B32327F6461200283DA5 /* LargestElementInArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LargestElementInArray.cpp; sourceTree = "<group>"; };
 		FA91B32527F8179500283DA5 /* SumOfElementArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumOfElementArray.cpp; sourceTree = "<group>"; };
 		FA91B32727F86A3C00283DA5 /* LinierSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinierSearch.cpp; sourceTree = "<group>"; };
+		FA91B33327F8F42F00283DA5 /* ArrangementOfArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangementOfArray.cpp; sourceTree = "<group>"; };
 		FAB162B327EA41D500972B30 /* AllPrime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllPrime.cpp; sourceTree = "<group>"; };
 		FAB162B527EA55D500972B30 /* ReverseNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseNumber.cpp; sourceTree = "<group>"; };
 		FAD9791827E4FCA4005DF616 /* pattern1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern1.cpp; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				FA91B32327F6461200283DA5 /* LargestElementInArray.cpp */,
 				FA91B32527F8179500283DA5 /* SumOfElementArray.cpp */,
 				FA91B32727F86A3C00283DA5 /* LinierSearch.cpp */,
+				FA91B33327F8F42F00283DA5 /* ArrangementOfArray.cpp */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				FA91B32627F8179500283DA5 /* SumOfElementArray.cpp in Sources */,
 				FAD9792127E50E53005DF616 /* pattern6.cpp in Sources */,
 				FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */,
+				FA91B33427F8F42F00283DA5 /* ArrangementOfArray.cpp in Sources */,
 				FA91B32227F6449A00283DA5 /* ArraInput.cpp in Sources */,
 				FAD9792B27E5DC2C005DF616 /* pattern7.cpp in Sources */,
 				FAD9792727E5C016005DF616 /* Power.cpp in Sources */,

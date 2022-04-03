@@ -31,7 +31,6 @@ void pattern18(){
     cin >> n;
     int i = 1;
     int start = (n+1)/2;
-    int end = n -start;
      while(i<=start){
         int j = 1;
         while(j<=start - i){

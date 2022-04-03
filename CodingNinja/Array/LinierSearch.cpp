@@ -21,7 +21,7 @@ int linearSearch(int *arr, int n, int x)
     return result;
 }
 
-int main(){
+int LinierSearch(){
     
     int a[1000001];
     cout <<"Address of a is  : " << a<< endl;
@@ -38,6 +38,7 @@ int main(){
     cout << linearSearch(a, size, 6);
     
     cout << endl << endl;
+    return linearSearch(a, size, 6);
     
 }
 
