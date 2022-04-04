@@ -30,7 +30,7 @@ void arrangeArray(int * arr, int n){
         cout << arr[i] << endl;
     }
 }
-int main() {
+void arrangeNum() {
     
     int size;
     cout << "Enter the size of Array : ";
