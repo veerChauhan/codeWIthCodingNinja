@@ -36,7 +36,7 @@ void reverseArray(int b[], int h) {
     
 }
 
-int main() {
+void arraBasic() {
     
     int a = 10;
     int b[9] = {2,3,5,7,3,2,6,7,4};
