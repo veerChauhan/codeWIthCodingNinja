@@ -21,6 +21,13 @@ void swapAleternateElementInArray(int n, int arra[]) {
         i = i+2;
     }
     
+    for (int i  = 0; i < n-1; i = i+2) {
+        int temp = arra[i];
+        int next = arra[i+1];
+        arra[i] = next;
+        arra[i+1] = temp;
+    }
+    
     
     
 }
