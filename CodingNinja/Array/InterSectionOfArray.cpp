@@ -16,7 +16,7 @@ int pairSum(int *input, int size, int x)
     //count of number of pair which can go for sum
     int count = 0;
     for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++) {
+        for (int j = i; j < size; j++) {
             if (i == j) {
                 continue;
             }
@@ -25,7 +25,7 @@ int pairSum(int *input, int size, int x)
             }
         }
     }
-    return count / 2;
+    return count;
 }
 
 void intersectionArray(int size1 , int *arr1, int size2, int *arr2) {
