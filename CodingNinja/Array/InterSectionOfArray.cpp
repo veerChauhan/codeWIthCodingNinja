@@ -47,11 +47,17 @@ void sortZeroesAndOne(int *input, int size)
     //Write your code here
     // input = {0,1,1,1,0,0,1,0,1,0,1}
     
-    
+    int count = 0;
     for (int i = 0; i<size; i++) {
-        if (input[i] == 1) {
-            
+        if (input[i] == 0) {
+            count++;
         }
+    }
+    for (int i = 0; i<count; i++) {
+        cout << "0" << " ";
+    }
+    for (;count< size; count++) {
+        cout << "1" << " ";
     }
     
 
@@ -114,6 +120,8 @@ void duplicateNumber(int *arr, int size)
 
 int main() {
     
-    int a[] = {0, 7, 2, 5, 4, 7, 1, 3, 6};
-    cout << tripletSum(a, 9, 8) << endl;
+    int zeroOne[] = {0,1,1,1,0,1,0,1,0,1,0,1,1,1};
+//    int a[] = {0, 7, 2, 5, 4, 7, 1, 3, 6};
+    
+    sortZeroesAndOne(zeroOne, 14) ;
 }
