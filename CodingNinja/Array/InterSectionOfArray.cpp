@@ -11,6 +11,23 @@
 using namespace std;
 
 
+int pairSum(int *input, int size, int x)
+{
+    //count of number of pair which can go for sum
+    int count = 0;
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            if (i == j) {
+                continue;
+            }
+            if (input[i] + input[j] == x) {
+                count ++;
+            }
+        }
+    }
+    return count / 2;
+}
+
 void intersectionArray(int size1 , int *arr1, int size2, int *arr2) {
     
     for (int i = 0; i<size1; i++) {
@@ -49,7 +66,6 @@ void duplicateNumber(int *arr, int size)
 
 int main() {
     
-    
     int a[] = {0, 7, 2, 5, 4, 7, 1, 3, 6};
-    duplicateNumber(a, 9);
+    cout << pairSum(a, 9, 8) << endl;
 }
