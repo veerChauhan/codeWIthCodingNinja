@@ -11,6 +11,54 @@
 using namespace std;
 
 
+/*
+ 2,4,6
+ 3,4,5
+ 1 4,7
+ 1 5 6
+ */
+int tripletSum(int *input, int size, int x)
+{
+    
+    
+    int count = 0;
+    for (int i = 0; i<size; i++) {
+        for (int j= i; j<size; j++) {
+            if (i==j) {
+                continue;
+            }
+            for (int k = j; k<size; k++) {
+                if (k == j) {
+                    continue;
+                }
+                if (input[i] + input[j] + input[k] == x) {
+                    count++;
+                }
+            }
+        }
+    }
+    
+    return  count;
+    
+    //Write your code here
+}
+void sortZeroesAndOne(int *input, int size)
+{
+    //Write your code here
+    // input = {0,1,1,1,0,0,1,0,1,0,1}
+    
+    
+    for (int i = 0; i<size; i++) {
+        if (input[i] == 1) {
+            
+        }
+    }
+    
+
+}
+
+
+
 int pairSum(int *input, int size, int x)
 {
     //count of number of pair which can go for sum
@@ -67,5 +115,5 @@ void duplicateNumber(int *arr, int size)
 int main() {
     
     int a[] = {0, 7, 2, 5, 4, 7, 1, 3, 6};
-    cout << pairSum(a, 9, 8) << endl;
+    cout << tripletSum(a, 9, 8) << endl;
 }
