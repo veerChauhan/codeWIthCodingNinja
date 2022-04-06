@@ -31,7 +31,7 @@ void swapAleternateElementInArray(int n, int arra[]) {
     
     
 }
-int main(){
+void alernate(){
     
     int n;
     int input[100];
