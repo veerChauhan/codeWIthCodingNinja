@@ -32,6 +32,8 @@
 		FA91B33827FCC49700283DA5 /* SwapAlternateElementInArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B33727FCC49700283DA5 /* SwapAlternateElementInArray.cpp */; };
 		FA91B33A27FCC95600283DA5 /* FindUniqueInArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B33927FCC95600283DA5 /* FindUniqueInArray.cpp */; };
 		FA91B33C27FD65B000283DA5 /* InterSectionOfArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B33B27FD65B000283DA5 /* InterSectionOfArray.cpp */; };
+		FA91B34027FF697100283DA5 /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B33E27FF697100283DA5 /* BinarySearch.cpp */; };
+		FA91B34428004B0100283DA5 /* BuubleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B34228004B0100283DA5 /* BuubleSort.cpp */; };
 		FAB162B427EA41D500972B30 /* AllPrime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB162B327EA41D500972B30 /* AllPrime.cpp */; };
 		FAB162B627EA55D500972B30 /* ReverseNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB162B527EA55D500972B30 /* ReverseNumber.cpp */; };
 		FAD9791927E4FCA4005DF616 /* pattern1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9791827E4FCA4005DF616 /* pattern1.cpp */; };
@@ -95,6 +97,10 @@
 		FA91B33727FCC49700283DA5 /* SwapAlternateElementInArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SwapAlternateElementInArray.cpp; sourceTree = "<group>"; };
 		FA91B33927FCC95600283DA5 /* FindUniqueInArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindUniqueInArray.cpp; sourceTree = "<group>"; };
 		FA91B33B27FD65B000283DA5 /* InterSectionOfArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterSectionOfArray.cpp; sourceTree = "<group>"; };
+		FA91B33E27FF697100283DA5 /* BinarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch.cpp; sourceTree = "<group>"; };
+		FA91B33F27FF697100283DA5 /* BinarySearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearch.hpp; sourceTree = "<group>"; };
+		FA91B34228004B0100283DA5 /* BuubleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuubleSort.cpp; sourceTree = "<group>"; };
+		FA91B34328004B0100283DA5 /* BuubleSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BuubleSort.hpp; sourceTree = "<group>"; };
 		FAB162B327EA41D500972B30 /* AllPrime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllPrime.cpp; sourceTree = "<group>"; };
 		FAB162B527EA55D500972B30 /* ReverseNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseNumber.cpp; sourceTree = "<group>"; };
 		FAD9791827E4FCA4005DF616 /* pattern1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern1.cpp; sourceTree = "<group>"; };
@@ -147,6 +153,8 @@
 		FA46705527E4862B00AB3529 /* CodingNinja */ = {
 			isa = PBXGroup;
 			children = (
+				FA91B34128004AF500283DA5 /* Sorting */,
+				FA91B33D27FF694D00283DA5 /* SearchingAndSorting */,
 				FA91B32027F6448A00283DA5 /* Array */,
 				FAB162B227EA41C600972B30 /* loop */,
 				FAD9793B27E614BB005DF616 /* patternProblem */,
@@ -184,6 +192,24 @@
 				FA91B33B27FD65B000283DA5 /* InterSectionOfArray.cpp */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		FA91B33D27FF694D00283DA5 /* SearchingAndSorting */ = {
+			isa = PBXGroup;
+			children = (
+				FA91B33E27FF697100283DA5 /* BinarySearch.cpp */,
+				FA91B33F27FF697100283DA5 /* BinarySearch.hpp */,
+			);
+			path = SearchingAndSorting;
+			sourceTree = "<group>";
+		};
+		FA91B34128004AF500283DA5 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				FA91B34228004B0100283DA5 /* BuubleSort.cpp */,
+				FA91B34328004B0100283DA5 /* BuubleSort.hpp */,
+			);
+			path = Sorting;
 			sourceTree = "<group>";
 		};
 		FAB162B227EA41C600972B30 /* loop */ = {
@@ -294,6 +320,7 @@
 				FA46706627E4AC0900AB3529 /* FtoCel.cpp in Sources */,
 				FAD9792527E5BB64005DF616 /* evenOddDigitSum.cpp in Sources */,
 				FA46706A27E4B63900AB3529 /* alphabateProblem.cpp in Sources */,
+				FA91B34428004B0100283DA5 /* BuubleSort.cpp in Sources */,
 				FAD9793827E610C8005DF616 /* pattern13.cpp in Sources */,
 				FA46706827E4B19500AB3529 /* largerNumber.cpp in Sources */,
 				FAD9793227E5DD86005DF616 /* pattern10.cpp in Sources */,
@@ -321,6 +348,7 @@
 				FA91B32827F86A3C00283DA5 /* LinierSearch.cpp in Sources */,
 				FAD9792927E5C4F4005DF616 /* pattern8.cpp in Sources */,
 				FAD9793F27E716EF005DF616 /* pattern16.cpp in Sources */,
+				FA91B34027FF697100283DA5 /* BinarySearch.cpp in Sources */,
 				FA054AFF27EBAA30007B7AE9 /* DecimalToBinary.cpp in Sources */,
 				FAD9793427E5DE8A005DF616 /* pattern11.cpp in Sources */,
 				FA46705F27E4872400AB3529 /* sum.cpp in Sources */,

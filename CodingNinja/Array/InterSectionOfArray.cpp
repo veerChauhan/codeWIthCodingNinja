@@ -60,10 +60,25 @@ void sortZeroesAndOne(int *input, int size)
         cout << "1" << " ";
     }
     
-
+    
 }
 
-
+void sortZeroOneOptimal(int *arr, int size) {
+    
+    
+    for (int i = 0; i<size; i++) {
+        
+        for (int j = size; j>i; j--) {
+            if (arr[i] == 1) {
+                if (arr[j] == 0) {
+                    arr[i] = 0;
+                    arr[j] = 1;
+                }
+                
+            }
+        }
+    }
+}
 
 int pairSum(int *input, int size, int x)
 {
@@ -118,10 +133,11 @@ void duplicateNumber(int *arr, int size)
 }
 
 
-int main() {
+void ArrayProblem() {
     
     int zeroOne[] = {0,1,1,1,0,1,0,1,0,1,0,1,1,1};
-//    int a[] = {0, 7, 2, 5, 4, 7, 1, 3, 6};
+    //    int a[] = {0, 7, 2, 5, 4, 7, 1, 3, 6};
     
-    sortZeroesAndOne(zeroOne, 14) ;
+    sortZeroOneOptimal(zeroOne, 14);
+    //    sortZeroesAndOne(zeroOne, 14) ;
 }
