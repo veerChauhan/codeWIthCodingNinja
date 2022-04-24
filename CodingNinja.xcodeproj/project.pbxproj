@@ -21,6 +21,9 @@
 		FA46706E27E4BAEB00AB3529 /* primeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46706D27E4BAEB00AB3529 /* primeNumber.cpp */; };
 		FA46707027E4BFE100AB3529 /* sumOfPositiveN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46706F27E4BFE100AB3529 /* sumOfPositiveN.cpp */; };
 		FA4717252815D69F00C16EE4 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4717232815D69F00C16EE4 /* String.cpp */; };
+		FA4717282815DEED00C16EE4 /* number_palindrom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4717262815DEED00C16EE4 /* number_palindrom.cpp */; };
+		FA47172B2815DFA900C16EE4 /* Count_charecter_in_String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4717292815DFA900C16EE4 /* Count_charecter_in_String.cpp */; };
+		FA47172E2815E02600C16EE4 /* check_string_palindrom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA47172C2815E02600C16EE4 /* check_string_palindrom.cpp */; };
 		FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */; };
 		FA91B31D27F398E800283DA5 /* ValidSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31C27F398E800283DA5 /* ValidSequence.cpp */; };
 		FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31E27F4682C00283DA5 /* pattern17.cpp */; };
@@ -88,6 +91,12 @@
 		FA46706F27E4BFE100AB3529 /* sumOfPositiveN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sumOfPositiveN.cpp; sourceTree = "<group>"; };
 		FA4717232815D69F00C16EE4 /* String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
 		FA4717242815D69F00C16EE4 /* String.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = String.hpp; sourceTree = "<group>"; };
+		FA4717262815DEED00C16EE4 /* number_palindrom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = number_palindrom.cpp; sourceTree = "<group>"; };
+		FA4717272815DEED00C16EE4 /* number_palindrom.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = number_palindrom.hpp; sourceTree = "<group>"; };
+		FA4717292815DFA900C16EE4 /* Count_charecter_in_String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Count_charecter_in_String.cpp; sourceTree = "<group>"; };
+		FA47172A2815DFA900C16EE4 /* Count_charecter_in_String.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Count_charecter_in_String.hpp; sourceTree = "<group>"; };
+		FA47172C2815E02600C16EE4 /* check_string_palindrom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = check_string_palindrom.cpp; sourceTree = "<group>"; };
+		FA47172D2815E02600C16EE4 /* check_string_palindrom.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = check_string_palindrom.hpp; sourceTree = "<group>"; };
 		FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SqaureRoot.cpp; sourceTree = "<group>"; };
 		FA91B31C27F398E800283DA5 /* ValidSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSequence.cpp; sourceTree = "<group>"; };
 		FA91B31E27F4682C00283DA5 /* pattern17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern17.cpp; sourceTree = "<group>"; };
@@ -186,7 +195,13 @@
 			isa = PBXGroup;
 			children = (
 				FA4717232815D69F00C16EE4 /* String.cpp */,
+				FA47172C2815E02600C16EE4 /* check_string_palindrom.cpp */,
+				FA47172D2815E02600C16EE4 /* check_string_palindrom.hpp */,
 				FA4717242815D69F00C16EE4 /* String.hpp */,
+				FA4717262815DEED00C16EE4 /* number_palindrom.cpp */,
+				FA4717272815DEED00C16EE4 /* number_palindrom.hpp */,
+				FA4717292815DFA900C16EE4 /* Count_charecter_in_String.cpp */,
+				FA47172A2815DFA900C16EE4 /* Count_charecter_in_String.hpp */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -325,6 +340,7 @@
 				FAD9792127E50E53005DF616 /* pattern6.cpp in Sources */,
 				FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */,
 				FA91B33427F8F42F00283DA5 /* ArrangementOfArray.cpp in Sources */,
+				FA47172E2815E02600C16EE4 /* check_string_palindrom.cpp in Sources */,
 				FA91B32227F6449A00283DA5 /* ArraInput.cpp in Sources */,
 				FAD9792B27E5DC2C005DF616 /* pattern7.cpp in Sources */,
 				FAD9792727E5C016005DF616 /* Power.cpp in Sources */,
@@ -351,9 +367,11 @@
 				FA91B31D27F398E800283DA5 /* ValidSequence.cpp in Sources */,
 				FA46706E27E4BAEB00AB3529 /* primeNumber.cpp in Sources */,
 				FAB162B627EA55D500972B30 /* ReverseNumber.cpp in Sources */,
+				FA47172B2815DFA900C16EE4 /* Count_charecter_in_String.cpp in Sources */,
 				FAD9791927E4FCA4005DF616 /* pattern1.cpp in Sources */,
 				FA4717252815D69F00C16EE4 /* String.cpp in Sources */,
 				FA18DD3427E4C5D1009AD794 /* fToCelWithMedian.cpp in Sources */,
+				FA4717282815DEED00C16EE4 /* number_palindrom.cpp in Sources */,
 				FA46706427E49C1A00AB3529 /* typecast.cpp in Sources */,
 				FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */,
 				FA91B32427F6461200283DA5 /* LargestElementInArray.cpp in Sources */,
