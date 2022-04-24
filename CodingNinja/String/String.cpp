@@ -10,6 +10,8 @@
 #include "number_palindrom.hpp"
 #include "Count_charecter_in_String.hpp"
 #include "check_string_palindrom.hpp"
+#include "Replace_occurance_with_char.hpp"
+
 
 
 using namespace std;
@@ -22,6 +24,12 @@ int main() {
     char name [100];
     cout << "Enter your name : ";
     cin >> name ;
-    cout << check_string_palindrom(name) << " is " << endl;
+    cout << "Enter the charecter to be replace: ";
+    char charecter_replacer, charecter_replaced;
+    cin >> charecter_replacer;
+    cout << "Enter the charecter to be replaced: ";
+    cin >> charecter_replaced;
+    replace_string_occurance(name,charecter_replacer, charecter_replaced);
+    cout << "Changed string is  : " <<  name << endl;
         
 }
