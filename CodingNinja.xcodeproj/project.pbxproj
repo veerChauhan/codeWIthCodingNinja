@@ -25,6 +25,7 @@
 		FA47172B2815DFA900C16EE4 /* Count_charecter_in_String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4717292815DFA900C16EE4 /* Count_charecter_in_String.cpp */; };
 		FA47172E2815E02600C16EE4 /* check_string_palindrom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA47172C2815E02600C16EE4 /* check_string_palindrom.cpp */; };
 		FA4717312815E8D400C16EE4 /* Replace_occurance_with_char.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA47172F2815E8D400C16EE4 /* Replace_occurance_with_char.cpp */; };
+		FA47173A2815F03A00C16EE4 /* FullStringInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4717382815F03A00C16EE4 /* FullStringInput.cpp */; };
 		FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */; };
 		FA91B31D27F398E800283DA5 /* ValidSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31C27F398E800283DA5 /* ValidSequence.cpp */; };
 		FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31E27F4682C00283DA5 /* pattern17.cpp */; };
@@ -100,6 +101,8 @@
 		FA47172D2815E02600C16EE4 /* check_string_palindrom.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = check_string_palindrom.hpp; sourceTree = "<group>"; };
 		FA47172F2815E8D400C16EE4 /* Replace_occurance_with_char.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Replace_occurance_with_char.cpp; sourceTree = "<group>"; };
 		FA4717302815E8D400C16EE4 /* Replace_occurance_with_char.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Replace_occurance_with_char.hpp; sourceTree = "<group>"; };
+		FA4717382815F03A00C16EE4 /* FullStringInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FullStringInput.cpp; sourceTree = "<group>"; };
+		FA4717392815F03A00C16EE4 /* FullStringInput.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FullStringInput.hpp; sourceTree = "<group>"; };
 		FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SqaureRoot.cpp; sourceTree = "<group>"; };
 		FA91B31C27F398E800283DA5 /* ValidSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSequence.cpp; sourceTree = "<group>"; };
 		FA91B31E27F4682C00283DA5 /* pattern17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern17.cpp; sourceTree = "<group>"; };
@@ -199,6 +202,7 @@
 			children = (
 				FA4717232815D69F00C16EE4 /* String.cpp */,
 				FA4717242815D69F00C16EE4 /* String.hpp */,
+				FA4717372815F02700C16EE4 /* InputStringGetLine */,
 				FA4717332815EF2700C16EE4 /* NumberPalindrom */,
 				FA4717322815EEAB00C16EE4 /* StringPalindrom */,
 				FA4717342815EF4D00C16EE4 /* CountCharacter */,
@@ -241,6 +245,15 @@
 				FA4717302815E8D400C16EE4 /* Replace_occurance_with_char.hpp */,
 			);
 			path = ReplaceCharacter;
+			sourceTree = "<group>";
+		};
+		FA4717372815F02700C16EE4 /* InputStringGetLine */ = {
+			isa = PBXGroup;
+			children = (
+				FA4717382815F03A00C16EE4 /* FullStringInput.cpp */,
+				FA4717392815F03A00C16EE4 /* FullStringInput.hpp */,
+			);
+			path = InputStringGetLine;
 			sourceTree = "<group>";
 		};
 		FA91B32027F6448A00283DA5 /* Array */ = {
@@ -389,6 +402,7 @@
 				FA91B34428004B0100283DA5 /* BuubleSort.cpp in Sources */,
 				FAD9793827E610C8005DF616 /* pattern13.cpp in Sources */,
 				FA46706827E4B19500AB3529 /* largerNumber.cpp in Sources */,
+				FA47173A2815F03A00C16EE4 /* FullStringInput.cpp in Sources */,
 				FAD9793227E5DD86005DF616 /* pattern10.cpp in Sources */,
 				FAD9791D27E50311005DF616 /* pattern3.cpp in Sources */,
 				FA91B33C27FD65B000283DA5 /* InterSectionOfArray.cpp in Sources */,

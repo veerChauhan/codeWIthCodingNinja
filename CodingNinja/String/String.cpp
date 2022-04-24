@@ -11,6 +11,7 @@
 #include "Count_charecter_in_String.hpp"
 #include "check_string_palindrom.hpp"
 #include "Replace_occurance_with_char.hpp"
+#include "FullStringInput.hpp"
 
 
 
@@ -23,9 +24,13 @@ int main() {
     
     // When we try to input string more than its size it will accept but when we try to print it it can get crash
     // see belo example
-    char name [3];
+    char name [103];
     cout << "Enter your name : ";
-    cin >> name ;
-    cout << "Changed string is  : " <<  name << endl;
+    cin.getline(name, 104) ;
+    
+    cout << name << endl;
+    fullstringPrint();
+    
+
         
 }
