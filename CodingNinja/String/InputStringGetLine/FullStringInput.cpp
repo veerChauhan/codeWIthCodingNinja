@@ -12,7 +12,8 @@ using namespace std;
 void fullstringPrint() {
     char data[100];
     cout << "Enter new :";
-    cin.getline(data, 4);
+    cin.getline(data, 10,'e');
+    
     cout << data << endl;
     
 }
@@ -23,6 +24,11 @@ void fullstringPrint() {
  if cin.getline(data,4) = veer
  output will be: vee not veer
 
+ 
+ getline function take three arguments
+ 1. Input array
+ 2. size
+ 3. delimeter to exit (default is \n)
  
  
  
