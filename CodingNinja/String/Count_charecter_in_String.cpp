@@ -12,7 +12,7 @@ using namespace std;
  find length of the string
  */
 
-int count_char(char *arr, int size) {
+int count_char(char *arr) {
     int count = 0;
     
     for (int i = 0; arr[i] != '\0'; i++) {

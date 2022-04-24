@@ -9,6 +9,6 @@
 #define Count_charecter_in_String_hpp
 
 #include <stdio.h>
-int count_char(char *arr, int size);
+int count_char(char *arr);
 
 #endif /* Count_charecter_in_String_hpp */
