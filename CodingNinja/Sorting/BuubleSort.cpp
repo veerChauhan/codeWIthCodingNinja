@@ -28,8 +28,17 @@ void bubble_sort(){
     }
     
  }
-int main() {
+void coder() {
     
-    selection_sort();
+    
+    char name[0];
+    cin >> name;
+    cout << name << endl;
+    
+    int num[100];
+    
+//    cin >> num;
+    cout << num << endl;
+//    selection_sort();
     
 }

@@ -20,6 +20,7 @@
 		FA46706C27E4BA3900AB3529 /* allNumToN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46706B27E4BA3900AB3529 /* allNumToN.cpp */; };
 		FA46706E27E4BAEB00AB3529 /* primeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46706D27E4BAEB00AB3529 /* primeNumber.cpp */; };
 		FA46707027E4BFE100AB3529 /* sumOfPositiveN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46706F27E4BFE100AB3529 /* sumOfPositiveN.cpp */; };
+		FA4717252815D69F00C16EE4 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4717232815D69F00C16EE4 /* String.cpp */; };
 		FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */; };
 		FA91B31D27F398E800283DA5 /* ValidSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31C27F398E800283DA5 /* ValidSequence.cpp */; };
 		FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31E27F4682C00283DA5 /* pattern17.cpp */; };
@@ -85,6 +86,8 @@
 		FA46706B27E4BA3900AB3529 /* allNumToN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = allNumToN.cpp; sourceTree = "<group>"; };
 		FA46706D27E4BAEB00AB3529 /* primeNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primeNumber.cpp; sourceTree = "<group>"; };
 		FA46706F27E4BFE100AB3529 /* sumOfPositiveN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sumOfPositiveN.cpp; sourceTree = "<group>"; };
+		FA4717232815D69F00C16EE4 /* String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
+		FA4717242815D69F00C16EE4 /* String.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = String.hpp; sourceTree = "<group>"; };
 		FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SqaureRoot.cpp; sourceTree = "<group>"; };
 		FA91B31C27F398E800283DA5 /* ValidSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSequence.cpp; sourceTree = "<group>"; };
 		FA91B31E27F4682C00283DA5 /* pattern17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern17.cpp; sourceTree = "<group>"; };
@@ -153,6 +156,7 @@
 		FA46705527E4862B00AB3529 /* CodingNinja */ = {
 			isa = PBXGroup;
 			children = (
+				FA4717222815D68A00C16EE4 /* String */,
 				FA91B34128004AF500283DA5 /* Sorting */,
 				FA91B33D27FF694D00283DA5 /* SearchingAndSorting */,
 				FA91B32027F6448A00283DA5 /* Array */,
@@ -176,6 +180,15 @@
 				FAD9792627E5C016005DF616 /* Power.cpp */,
 			);
 			path = CodingNinja;
+			sourceTree = "<group>";
+		};
+		FA4717222815D68A00C16EE4 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				FA4717232815D69F00C16EE4 /* String.cpp */,
+				FA4717242815D69F00C16EE4 /* String.hpp */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		FA91B32027F6448A00283DA5 /* Array */ = {
@@ -339,6 +352,7 @@
 				FA46706E27E4BAEB00AB3529 /* primeNumber.cpp in Sources */,
 				FAB162B627EA55D500972B30 /* ReverseNumber.cpp in Sources */,
 				FAD9791927E4FCA4005DF616 /* pattern1.cpp in Sources */,
+				FA4717252815D69F00C16EE4 /* String.cpp in Sources */,
 				FA18DD3427E4C5D1009AD794 /* fToCelWithMedian.cpp in Sources */,
 				FA46706427E49C1A00AB3529 /* typecast.cpp in Sources */,
 				FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */,
