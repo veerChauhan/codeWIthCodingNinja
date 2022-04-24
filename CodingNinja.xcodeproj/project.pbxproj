@@ -197,9 +197,8 @@
 		FA4717222815D68A00C16EE4 /* String */ = {
 			isa = PBXGroup;
 			children = (
+				FA4717322815EEAB00C16EE4 /* StringPalindrom */,
 				FA4717232815D69F00C16EE4 /* String.cpp */,
-				FA47172C2815E02600C16EE4 /* check_string_palindrom.cpp */,
-				FA47172D2815E02600C16EE4 /* check_string_palindrom.hpp */,
 				FA4717242815D69F00C16EE4 /* String.hpp */,
 				FA4717262815DEED00C16EE4 /* number_palindrom.cpp */,
 				FA4717272815DEED00C16EE4 /* number_palindrom.hpp */,
@@ -209,6 +208,15 @@
 				FA4717302815E8D400C16EE4 /* Replace_occurance_with_char.hpp */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		FA4717322815EEAB00C16EE4 /* StringPalindrom */ = {
+			isa = PBXGroup;
+			children = (
+				FA47172C2815E02600C16EE4 /* check_string_palindrom.cpp */,
+				FA47172D2815E02600C16EE4 /* check_string_palindrom.hpp */,
+			);
+			path = StringPalindrom;
 			sourceTree = "<group>";
 		};
 		FA91B32027F6448A00283DA5 /* Array */ = {
