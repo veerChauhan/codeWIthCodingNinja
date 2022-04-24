@@ -21,15 +21,11 @@ using namespace std;
 
 int main() {
     
-    char name [100];
+    // When we try to input string more than its size it will accept but when we try to print it it can get crash
+    // see belo example
+    char name [3];
     cout << "Enter your name : ";
     cin >> name ;
-    cout << "Enter the charecter to be replace: ";
-    char charecter_replacer, charecter_replaced;
-    cin >> charecter_replacer;
-    cout << "Enter the charecter to be replaced: ";
-    cin >> charecter_replaced;
-    replace_string_occurance(name,charecter_replacer, charecter_replaced);
     cout << "Changed string is  : " <<  name << endl;
         
 }
