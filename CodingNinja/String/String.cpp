@@ -12,8 +12,7 @@
 #include "check_string_palindrom.hpp"
 #include "Replace_occurance_with_char.hpp"
 #include "FullStringInput.hpp"
-
-
+#include "ReverseCompleteString.hpp"
 
 using namespace std;
 // Check a string is palindrom or not
@@ -24,13 +23,11 @@ int main() {
     
     // When we try to input string more than its size it will accept but when we try to print it it can get crash
     // see belo example
-    char name [103];
-    cout << "Enter your name : ";
-    cin.getline(name, 104) ;
+    char input_string [103];
+    cout << "Enter your string : ";
+    cin.getline(input_string, 100) ;
     
-    cout << name << endl;
-    fullstringPrint();
-    
+    reverse_complete_string(input_string);
 
         
 }
