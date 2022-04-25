@@ -16,7 +16,11 @@
 #include "TrimSpaceInString.hpp"
 #include "ReverseWordWiseString.hpp"
 
+
+//Inbuilt function
 #include "strlen.hpp"
+#include "StringCompare.hpp"
+
 
 
 using namespace std;
@@ -31,5 +35,10 @@ int main() {
     char input_string [103];
     cout << "Enter your string : ";
     cin.getline(input_string, 100) ;
+    char input_string2[103];
+    cout << "Enter your string : ";
+    cin.getline(input_string2, 100) ;
+    
+    stringCompareFunction(input_string, input_string2);
 
 }

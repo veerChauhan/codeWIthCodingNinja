@@ -64,6 +64,7 @@
 		FAD9793A27E613C1005DF616 /* pattern14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793927E613C1005DF616 /* pattern14.cpp */; };
 		FAD9793D27E6E33E005DF616 /* pattern15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793C27E6E33E005DF616 /* pattern15.cpp */; };
 		FAD9793F27E716EF005DF616 /* pattern16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793E27E716EF005DF616 /* pattern16.cpp */; };
+		FAE97AE7281741A2004B6E44 /* StringCompare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE97AE5281741A2004B6E44 /* StringCompare.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -151,6 +152,8 @@
 		FAD9793927E613C1005DF616 /* pattern14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern14.cpp; sourceTree = "<group>"; };
 		FAD9793C27E6E33E005DF616 /* pattern15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern15.cpp; sourceTree = "<group>"; };
 		FAD9793E27E716EF005DF616 /* pattern16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern16.cpp; sourceTree = "<group>"; };
+		FAE97AE5281741A2004B6E44 /* StringCompare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringCompare.cpp; sourceTree = "<group>"; };
+		FAE97AE6281741A2004B6E44 /* StringCompare.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringCompare.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,6 +323,8 @@
 		FA471788281740F800C16EE4 /* StringCompareFunction */ = {
 			isa = PBXGroup;
 			children = (
+				FAE97AE5281741A2004B6E44 /* StringCompare.cpp */,
+				FAE97AE6281741A2004B6E44 /* StringCompare.hpp */,
 			);
 			path = StringCompareFunction;
 			sourceTree = "<group>";
@@ -505,6 +510,7 @@
 				FAD9793F27E716EF005DF616 /* pattern16.cpp in Sources */,
 				FA91B34027FF697100283DA5 /* BinarySearch.cpp in Sources */,
 				FA054AFF27EBAA30007B7AE9 /* DecimalToBinary.cpp in Sources */,
+				FAE97AE7281741A2004B6E44 /* StringCompare.cpp in Sources */,
 				FAD9793427E5DE8A005DF616 /* pattern11.cpp in Sources */,
 				FA4717312815E8D400C16EE4 /* Replace_occurance_with_char.cpp in Sources */,
 				FA46705F27E4872400AB3529 /* sum.cpp in Sources */,
