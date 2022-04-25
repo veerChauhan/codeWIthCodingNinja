@@ -11,4 +11,7 @@ using namespace std;
 
 void stringCompareFunction(char *string1, char *string2) {
     cout << strcmp(string1, string2);
+    strcpy(string1, string2);
+    cout <<string1;
+    
 }

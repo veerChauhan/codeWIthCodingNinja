@@ -20,6 +20,8 @@
 //Inbuilt function
 #include "strlen.hpp"
 #include "StringCompare.hpp"
+#include "AllPrefix.hpp"
+
 
 
 
@@ -32,13 +34,10 @@ int main() {
     
     // When we try to input string more than its size it will accept but when we try to print it it can get crash
     // see belo example
-    char input_string [103];
+    char input_string [100];
     cout << "Enter your string : ";
     cin.getline(input_string, 100) ;
-    char input_string2[103];
-    cout << "Enter your string : ";
-    cin.getline(input_string2, 100) ;
+    printAllPrefix(input_string);
     
-    stringCompareFunction(input_string, input_string2);
 
 }

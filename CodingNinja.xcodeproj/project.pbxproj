@@ -65,6 +65,7 @@
 		FAD9793D27E6E33E005DF616 /* pattern15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793C27E6E33E005DF616 /* pattern15.cpp */; };
 		FAD9793F27E716EF005DF616 /* pattern16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9793E27E716EF005DF616 /* pattern16.cpp */; };
 		FAE97AE7281741A2004B6E44 /* StringCompare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE97AE5281741A2004B6E44 /* StringCompare.cpp */; };
+		FAE97AEB2817443E004B6E44 /* AllPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE97AE92817443E004B6E44 /* AllPrefix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -154,6 +155,8 @@
 		FAD9793E27E716EF005DF616 /* pattern16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern16.cpp; sourceTree = "<group>"; };
 		FAE97AE5281741A2004B6E44 /* StringCompare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringCompare.cpp; sourceTree = "<group>"; };
 		FAE97AE6281741A2004B6E44 /* StringCompare.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringCompare.hpp; sourceTree = "<group>"; };
+		FAE97AE92817443E004B6E44 /* AllPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllPrefix.cpp; sourceTree = "<group>"; };
+		FAE97AEA2817443E004B6E44 /* AllPrefix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AllPrefix.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +308,7 @@
 		FA471783281702FC00C16EE4 /* InbuildFunction */ = {
 			isa = PBXGroup;
 			children = (
+				FAE97AE828174435004B6E44 /* AllPrefix */,
 				FA471788281740F800C16EE4 /* StringCompareFunction */,
 				FA471787281740E300C16EE4 /* StringLengthFunction */,
 			);
@@ -397,6 +401,15 @@
 				FAD9793E27E716EF005DF616 /* pattern16.cpp */,
 			);
 			path = patternProblem;
+			sourceTree = "<group>";
+		};
+		FAE97AE828174435004B6E44 /* AllPrefix */ = {
+			isa = PBXGroup;
+			children = (
+				FAE97AE92817443E004B6E44 /* AllPrefix.cpp */,
+				FAE97AEA2817443E004B6E44 /* AllPrefix.hpp */,
+			);
+			path = AllPrefix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -508,6 +521,7 @@
 				FA4717422815F7FD00C16EE4 /* TrimSpaceInString.cpp in Sources */,
 				FAD9792927E5C4F4005DF616 /* pattern8.cpp in Sources */,
 				FAD9793F27E716EF005DF616 /* pattern16.cpp in Sources */,
+				FAE97AEB2817443E004B6E44 /* AllPrefix.cpp in Sources */,
 				FA91B34027FF697100283DA5 /* BinarySearch.cpp in Sources */,
 				FA054AFF27EBAA30007B7AE9 /* DecimalToBinary.cpp in Sources */,
 				FAE97AE7281741A2004B6E44 /* StringCompare.cpp in Sources */,
