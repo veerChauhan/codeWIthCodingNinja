@@ -13,6 +13,11 @@
 #include "Replace_occurance_with_char.hpp"
 #include "FullStringInput.hpp"
 #include "ReverseCompleteString.hpp"
+#include "TrimSpaceInString.hpp"
+#include "ReverseWordWiseString.hpp"
+
+#include "strlen.hpp"
+
 
 using namespace std;
 // Check a string is palindrom or not
@@ -26,8 +31,5 @@ int main() {
     char input_string [103];
     cout << "Enter your string : ";
     cin.getline(input_string, 100) ;
-    
-    reverse_complete_string(input_string);
 
-        
 }

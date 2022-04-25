@@ -27,6 +27,9 @@
 		FA4717312815E8D400C16EE4 /* Replace_occurance_with_char.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA47172F2815E8D400C16EE4 /* Replace_occurance_with_char.cpp */; };
 		FA47173A2815F03A00C16EE4 /* FullStringInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4717382815F03A00C16EE4 /* FullStringInput.cpp */; };
 		FA47173E2815F4A200C16EE4 /* ReverseCompleteString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA47173C2815F4A200C16EE4 /* ReverseCompleteString.cpp */; };
+		FA4717422815F7FD00C16EE4 /* TrimSpaceInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4717402815F7FD00C16EE4 /* TrimSpaceInString.cpp */; };
+		FA4717822816BC8F00C16EE4 /* ReverseWordWiseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4717802816BC8F00C16EE4 /* ReverseWordWiseString.cpp */; };
+		FA4717862817030E00C16EE4 /* strlen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4717842817030E00C16EE4 /* strlen.cpp */; };
 		FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */; };
 		FA91B31D27F398E800283DA5 /* ValidSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31C27F398E800283DA5 /* ValidSequence.cpp */; };
 		FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31E27F4682C00283DA5 /* pattern17.cpp */; };
@@ -106,6 +109,12 @@
 		FA4717392815F03A00C16EE4 /* FullStringInput.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FullStringInput.hpp; sourceTree = "<group>"; };
 		FA47173C2815F4A200C16EE4 /* ReverseCompleteString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseCompleteString.cpp; sourceTree = "<group>"; };
 		FA47173D2815F4A200C16EE4 /* ReverseCompleteString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseCompleteString.hpp; sourceTree = "<group>"; };
+		FA4717402815F7FD00C16EE4 /* TrimSpaceInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TrimSpaceInString.cpp; sourceTree = "<group>"; };
+		FA4717412815F7FD00C16EE4 /* TrimSpaceInString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TrimSpaceInString.hpp; sourceTree = "<group>"; };
+		FA4717802816BC8F00C16EE4 /* ReverseWordWiseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseWordWiseString.cpp; sourceTree = "<group>"; };
+		FA4717812816BC8F00C16EE4 /* ReverseWordWiseString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseWordWiseString.hpp; sourceTree = "<group>"; };
+		FA4717842817030E00C16EE4 /* strlen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = strlen.cpp; sourceTree = "<group>"; };
+		FA4717852817030E00C16EE4 /* strlen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = strlen.hpp; sourceTree = "<group>"; };
 		FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SqaureRoot.cpp; sourceTree = "<group>"; };
 		FA91B31C27F398E800283DA5 /* ValidSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSequence.cpp; sourceTree = "<group>"; };
 		FA91B31E27F4682C00283DA5 /* pattern17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern17.cpp; sourceTree = "<group>"; };
@@ -203,8 +212,11 @@
 		FA4717222815D68A00C16EE4 /* String */ = {
 			isa = PBXGroup;
 			children = (
+				FA471783281702FC00C16EE4 /* InbuildFunction */,
 				FA4717232815D69F00C16EE4 /* String.cpp */,
 				FA4717242815D69F00C16EE4 /* String.hpp */,
+				FA47177F2816BC7300C16EE4 /* RevesrseSentance */,
+				FA47173F2815F7EB00C16EE4 /* TrimSpace */,
 				FA47173B2815F48700C16EE4 /* ReverseString */,
 				FA4717372815F02700C16EE4 /* InputStringGetLine */,
 				FA4717332815EF2700C16EE4 /* NumberPalindrom */,
@@ -267,6 +279,49 @@
 				FA47173D2815F4A200C16EE4 /* ReverseCompleteString.hpp */,
 			);
 			path = ReverseString;
+			sourceTree = "<group>";
+		};
+		FA47173F2815F7EB00C16EE4 /* TrimSpace */ = {
+			isa = PBXGroup;
+			children = (
+				FA4717402815F7FD00C16EE4 /* TrimSpaceInString.cpp */,
+				FA4717412815F7FD00C16EE4 /* TrimSpaceInString.hpp */,
+			);
+			path = TrimSpace;
+			sourceTree = "<group>";
+		};
+		FA47177F2816BC7300C16EE4 /* RevesrseSentance */ = {
+			isa = PBXGroup;
+			children = (
+				FA4717802816BC8F00C16EE4 /* ReverseWordWiseString.cpp */,
+				FA4717812816BC8F00C16EE4 /* ReverseWordWiseString.hpp */,
+			);
+			path = RevesrseSentance;
+			sourceTree = "<group>";
+		};
+		FA471783281702FC00C16EE4 /* InbuildFunction */ = {
+			isa = PBXGroup;
+			children = (
+				FA471788281740F800C16EE4 /* StringCompareFunction */,
+				FA471787281740E300C16EE4 /* StringLengthFunction */,
+			);
+			path = InbuildFunction;
+			sourceTree = "<group>";
+		};
+		FA471787281740E300C16EE4 /* StringLengthFunction */ = {
+			isa = PBXGroup;
+			children = (
+				FA4717842817030E00C16EE4 /* strlen.cpp */,
+				FA4717852817030E00C16EE4 /* strlen.hpp */,
+			);
+			path = StringLengthFunction;
+			sourceTree = "<group>";
+		};
+		FA471788281740F800C16EE4 /* StringCompareFunction */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StringCompareFunction;
 			sourceTree = "<group>";
 		};
 		FA91B32027F6448A00283DA5 /* Array */ = {
@@ -405,6 +460,7 @@
 				FA91B33427F8F42F00283DA5 /* ArrangementOfArray.cpp in Sources */,
 				FA47172E2815E02600C16EE4 /* check_string_palindrom.cpp in Sources */,
 				FA91B32227F6449A00283DA5 /* ArraInput.cpp in Sources */,
+				FA4717822816BC8F00C16EE4 /* ReverseWordWiseString.cpp in Sources */,
 				FAD9792B27E5DC2C005DF616 /* pattern7.cpp in Sources */,
 				FAD9792727E5C016005DF616 /* Power.cpp in Sources */,
 				FA91B33627FB801B00283DA5 /* ArrayBasic.cpp in Sources */,
@@ -415,6 +471,7 @@
 				FA91B34428004B0100283DA5 /* BuubleSort.cpp in Sources */,
 				FAD9793827E610C8005DF616 /* pattern13.cpp in Sources */,
 				FA46706827E4B19500AB3529 /* largerNumber.cpp in Sources */,
+				FA4717862817030E00C16EE4 /* strlen.cpp in Sources */,
 				FA47173A2815F03A00C16EE4 /* FullStringInput.cpp in Sources */,
 				FAD9793227E5DD86005DF616 /* pattern10.cpp in Sources */,
 				FAD9791D27E50311005DF616 /* pattern3.cpp in Sources */,
@@ -443,6 +500,7 @@
 				FAD9792327E5AF49005DF616 /* salaryCalculator.cpp in Sources */,
 				FA054AFD27EBA964007B7AE9 /* BinaryToDecimal.cpp in Sources */,
 				FA91B32827F86A3C00283DA5 /* LinierSearch.cpp in Sources */,
+				FA4717422815F7FD00C16EE4 /* TrimSpaceInString.cpp in Sources */,
 				FAD9792927E5C4F4005DF616 /* pattern8.cpp in Sources */,
 				FAD9793F27E716EF005DF616 /* pattern16.cpp in Sources */,
 				FA91B34027FF697100283DA5 /* BinarySearch.cpp in Sources */,
