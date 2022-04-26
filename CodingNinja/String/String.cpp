@@ -31,7 +31,7 @@ using namespace std;
 
 // Check a Number is palindrom or not
 
-int main() {
+void stringType() {
     
     // When we try to input string more than its size it will accept but when we try to print it it can get crash
     // see belo example

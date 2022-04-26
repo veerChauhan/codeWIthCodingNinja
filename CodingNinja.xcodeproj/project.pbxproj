@@ -67,6 +67,8 @@
 		FAE97AE7281741A2004B6E44 /* StringCompare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE97AE5281741A2004B6E44 /* StringCompare.cpp */; };
 		FAE97AEB2817443E004B6E44 /* AllPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE97AE92817443E004B6E44 /* AllPrefix.cpp */; };
 		FAE97AEF281745CB004B6E44 /* AllSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE97AED281745CB004B6E44 /* AllSubstring.cpp */; };
+		FAE97AF3281891A9004B6E44 /* Pointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE97AF1281891A9004B6E44 /* Pointer.cpp */; };
+		FAE97AF7281891C0004B6E44 /* PointerArthemetics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE97AF5281891C0004B6E44 /* PointerArthemetics.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -160,6 +162,10 @@
 		FAE97AEA2817443E004B6E44 /* AllPrefix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AllPrefix.hpp; sourceTree = "<group>"; };
 		FAE97AED281745CB004B6E44 /* AllSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllSubstring.cpp; sourceTree = "<group>"; };
 		FAE97AEE281745CB004B6E44 /* AllSubstring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AllSubstring.hpp; sourceTree = "<group>"; };
+		FAE97AF1281891A9004B6E44 /* Pointer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pointer.cpp; sourceTree = "<group>"; };
+		FAE97AF2281891A9004B6E44 /* Pointer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pointer.hpp; sourceTree = "<group>"; };
+		FAE97AF5281891C0004B6E44 /* PointerArthemetics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointerArthemetics.cpp; sourceTree = "<group>"; };
+		FAE97AF6281891C0004B6E44 /* PointerArthemetics.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PointerArthemetics.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +198,7 @@
 		FA46705527E4862B00AB3529 /* CodingNinja */ = {
 			isa = PBXGroup;
 			children = (
+				FAE97AF028189182004B6E44 /* Pointer */,
 				FA4717222815D68A00C16EE4 /* String */,
 				FA91B34128004AF500283DA5 /* Sorting */,
 				FA91B33D27FF694D00283DA5 /* SearchingAndSorting */,
@@ -425,6 +432,25 @@
 			path = AllsubstringProblem;
 			sourceTree = "<group>";
 		};
+		FAE97AF028189182004B6E44 /* Pointer */ = {
+			isa = PBXGroup;
+			children = (
+				FAE97AF1281891A9004B6E44 /* Pointer.cpp */,
+				FAE97AF2281891A9004B6E44 /* Pointer.hpp */,
+				FAE97AF4281891B0004B6E44 /* PointerArthmetics */,
+			);
+			path = Pointer;
+			sourceTree = "<group>";
+		};
+		FAE97AF4281891B0004B6E44 /* PointerArthmetics */ = {
+			isa = PBXGroup;
+			children = (
+				FAE97AF5281891C0004B6E44 /* PointerArthemetics.cpp */,
+				FAE97AF6281891C0004B6E44 /* PointerArthemetics.hpp */,
+			);
+			path = PointerArthmetics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -524,8 +550,10 @@
 				FAD9791927E4FCA4005DF616 /* pattern1.cpp in Sources */,
 				FA4717252815D69F00C16EE4 /* String.cpp in Sources */,
 				FA18DD3427E4C5D1009AD794 /* fToCelWithMedian.cpp in Sources */,
+				FAE97AF3281891A9004B6E44 /* Pointer.cpp in Sources */,
 				FA4717282815DEED00C16EE4 /* number_palindrom.cpp in Sources */,
 				FA46706427E49C1A00AB3529 /* typecast.cpp in Sources */,
+				FAE97AF7281891C0004B6E44 /* PointerArthemetics.cpp in Sources */,
 				FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */,
 				FA91B32427F6461200283DA5 /* LargestElementInArray.cpp in Sources */,
 				FAD9792327E5AF49005DF616 /* salaryCalculator.cpp in Sources */,
