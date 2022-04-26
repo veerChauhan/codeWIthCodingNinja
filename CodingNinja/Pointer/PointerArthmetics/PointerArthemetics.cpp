@@ -24,8 +24,18 @@ void sizeOfPointerWithDataType() {
     cout << "Bool : "<<  sizeof(boolPointerSize) << endl;
 
 }
+
+void pointer_referncing() {
+    int i = 10;
+    int *p = &i;
+    cout << p <<  " Is the location of integer I " <<endl;
+    cout << &i <<  " Is the location of Integer i " <<endl;
+    cout << &p << " Is the location of pointer variable it is different from p address" << endl;
+    cout << *p << " value of i here we are dererencing the pointer and getting the value which is stored " << endl;
+}
 void pointer_arthmetics() {
 
+    pointer_referncing();
     sizeOfPointerWithDataType();
 
     
