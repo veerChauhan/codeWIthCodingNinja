@@ -21,6 +21,7 @@
 #include "strlen.hpp"
 #include "StringCompare.hpp"
 #include "AllPrefix.hpp"
+#include "AllSubstring.hpp"
 
 
 
@@ -37,7 +38,7 @@ int main() {
     char input_string [100];
     cout << "Enter your string : ";
     cin.getline(input_string, 100) ;
-    printAllPrefix(input_string);
+    print_all_substring(input_string);
     
 
 }
