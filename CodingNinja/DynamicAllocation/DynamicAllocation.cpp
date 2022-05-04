@@ -29,6 +29,6 @@ void dynamicAllocation() {
     }
 }
 int main() {
-    dynamicAllocation();
-//    maximumNumber();
+//    dynamicAllocation();
+    maximumNumber();
 }
