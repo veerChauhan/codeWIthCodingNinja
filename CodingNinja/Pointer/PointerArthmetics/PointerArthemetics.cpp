@@ -33,10 +33,23 @@ void pointer_referncing() {
     cout << &p << " Is the location of pointer variable it is different from p address" << endl;
     cout << *p << " value of i here we are dererencing the pointer and getting the value which is stored " << endl;
 }
+
+void pointer_mathematics() {
+    
+    int i = 10;
+    int *p = &i;
+    
+    cout << p << endl;
+    
+    p = p- 3;
+    cout << p << endl;
+    cout << *p << " it is a garbage value"<< endl;
+
+
+}
 void pointer_arthmetics() {
 
-    pointer_referncing();
-    sizeOfPointerWithDataType();
+    pointer_mathematics();
 
     
 }

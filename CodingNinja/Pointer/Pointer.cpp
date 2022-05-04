@@ -9,6 +9,11 @@
 #include "PointerArthemetics.hpp"
 using namespace std;
 
-int main () {
+void pointer () {
     pointer_arthmetics();
+    
 }
+
+
+
+
