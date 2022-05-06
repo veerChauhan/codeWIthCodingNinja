@@ -34,6 +34,6 @@ void maximumNumber() {
         }
     }
     cout << "Max number in array is : " << max << endl;
-    
-    
+    delete []array;
+    cout << *array;
 }

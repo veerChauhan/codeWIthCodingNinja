@@ -28,7 +28,7 @@ void dynamicAllocation() {
         
     }
 }
-int main() {
+void reDynamcic() {
 //    dynamicAllocation();
     maximumNumber();
 }
