@@ -34,6 +34,7 @@
 		FA60EC172823022D0098D31E /* MaximumNumberInDynamicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60EC152823022D0098D31E /* MaximumNumberInDynamicArray.cpp */; };
 		FA60EC1B2825BD760098D31E /* Recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60EC192825BD760098D31E /* Recursion.cpp */; };
 		FA60EC1F2825BDE30098D31E /* Factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60EC1D2825BDE30098D31E /* Factorial.cpp */; };
+		FA60EC232825C09F0098D31E /* Power.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60EC212825C09F0098D31E /* Power.cpp */; };
 		FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */; };
 		FA91B31D27F398E800283DA5 /* ValidSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31C27F398E800283DA5 /* ValidSequence.cpp */; };
 		FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31E27F4682C00283DA5 /* pattern17.cpp */; };
@@ -132,6 +133,8 @@
 		FA60EC1A2825BD760098D31E /* Recursion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Recursion.hpp; sourceTree = "<group>"; };
 		FA60EC1D2825BDE30098D31E /* Factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Factorial.cpp; sourceTree = "<group>"; };
 		FA60EC1E2825BDE30098D31E /* Factorial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Factorial.hpp; sourceTree = "<group>"; };
+		FA60EC212825C09F0098D31E /* Power.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Power.cpp; sourceTree = "<group>"; };
+		FA60EC222825C09F0098D31E /* Power.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Power.hpp; sourceTree = "<group>"; };
 		FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SqaureRoot.cpp; sourceTree = "<group>"; };
 		FA91B31C27F398E800283DA5 /* ValidSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSequence.cpp; sourceTree = "<group>"; };
 		FA91B31E27F4682C00283DA5 /* pattern17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern17.cpp; sourceTree = "<group>"; };
@@ -372,6 +375,7 @@
 		FA60EC182825BD6B0098D31E /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				FA60EC202825C0950098D31E /* Power */,
 				FA60EC1C2825BDD40098D31E /* Fctorial */,
 				FA60EC192825BD760098D31E /* Recursion.cpp */,
 				FA60EC1A2825BD760098D31E /* Recursion.hpp */,
@@ -386,6 +390,15 @@
 				FA60EC1E2825BDE30098D31E /* Factorial.hpp */,
 			);
 			path = Fctorial;
+			sourceTree = "<group>";
+		};
+		FA60EC202825C0950098D31E /* Power */ = {
+			isa = PBXGroup;
+			children = (
+				FA60EC212825C09F0098D31E /* Power.cpp */,
+				FA60EC222825C09F0098D31E /* Power.hpp */,
+			);
+			path = Power;
 			sourceTree = "<group>";
 		};
 		FA91B32027F6448A00283DA5 /* Array */ = {
@@ -601,6 +614,7 @@
 				FAE97AF7281891C0004B6E44 /* PointerArthemetics.cpp in Sources */,
 				FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */,
 				FA91B32427F6461200283DA5 /* LargestElementInArray.cpp in Sources */,
+				FA60EC232825C09F0098D31E /* Power.cpp in Sources */,
 				FA60EC142823005B0098D31E /* DynamicAllocation.cpp in Sources */,
 				FAD9792327E5AF49005DF616 /* salaryCalculator.cpp in Sources */,
 				FA054AFD27EBA964007B7AE9 /* BinaryToDecimal.cpp in Sources */,

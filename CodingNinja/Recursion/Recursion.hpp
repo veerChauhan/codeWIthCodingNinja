@@ -11,5 +11,7 @@
 #include <stdio.h>
 
 #include "Factorial.hpp"
+#include "Power.hpp"
+
 
 #endif /* Recursion_hpp */
