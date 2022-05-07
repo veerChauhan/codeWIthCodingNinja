@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA054AFD27EBA964007B7AE9 /* BinaryToDecimal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA054AFC27EBA964007B7AE9 /* BinaryToDecimal.cpp */; };
 		FA054AFF27EBAA30007B7AE9 /* DecimalToBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA054AFE27EBAA30007B7AE9 /* DecimalToBinary.cpp */; };
+		FA123E2E282654FF00755CA7 /* DigitInNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA123E2C282654FF00755CA7 /* DigitInNumber.cpp */; };
 		FA18DD3427E4C5D1009AD794 /* fToCelWithMedian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA18DD3327E4C5D1009AD794 /* fToCelWithMedian.cpp */; };
 		FA46705727E4862B00AB3529 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46705627E4862B00AB3529 /* main.cpp */; };
 		FA46705F27E4872400AB3529 /* sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA46705D27E4872400AB3529 /* sum.cpp */; };
@@ -35,6 +36,7 @@
 		FA60EC1B2825BD760098D31E /* Recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60EC192825BD760098D31E /* Recursion.cpp */; };
 		FA60EC1F2825BDE30098D31E /* Factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60EC1D2825BDE30098D31E /* Factorial.cpp */; };
 		FA60EC232825C09F0098D31E /* Power.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60EC212825C09F0098D31E /* Power.cpp */; };
+		FA60EC272825C4450098D31E /* NumberTillN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60EC252825C4450098D31E /* NumberTillN.cpp */; };
 		FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */; };
 		FA91B31D27F398E800283DA5 /* ValidSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31C27F398E800283DA5 /* ValidSequence.cpp */; };
 		FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31E27F4682C00283DA5 /* pattern17.cpp */; };
@@ -91,6 +93,8 @@
 /* Begin PBXFileReference section */
 		FA054AFC27EBA964007B7AE9 /* BinaryToDecimal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryToDecimal.cpp; sourceTree = "<group>"; };
 		FA054AFE27EBAA30007B7AE9 /* DecimalToBinary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DecimalToBinary.cpp; sourceTree = "<group>"; };
+		FA123E2C282654FF00755CA7 /* DigitInNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DigitInNumber.cpp; sourceTree = "<group>"; };
+		FA123E2D282654FF00755CA7 /* DigitInNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DigitInNumber.hpp; sourceTree = "<group>"; };
 		FA18DD3327E4C5D1009AD794 /* fToCelWithMedian.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fToCelWithMedian.cpp; sourceTree = "<group>"; };
 		FA46705327E4862B00AB3529 /* CodingNinja */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingNinja; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA46705627E4862B00AB3529 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -135,6 +139,8 @@
 		FA60EC1E2825BDE30098D31E /* Factorial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Factorial.hpp; sourceTree = "<group>"; };
 		FA60EC212825C09F0098D31E /* Power.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Power.cpp; sourceTree = "<group>"; };
 		FA60EC222825C09F0098D31E /* Power.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Power.hpp; sourceTree = "<group>"; };
+		FA60EC252825C4450098D31E /* NumberTillN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberTillN.cpp; sourceTree = "<group>"; };
+		FA60EC262825C4450098D31E /* NumberTillN.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberTillN.hpp; sourceTree = "<group>"; };
 		FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SqaureRoot.cpp; sourceTree = "<group>"; };
 		FA91B31C27F398E800283DA5 /* ValidSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSequence.cpp; sourceTree = "<group>"; };
 		FA91B31E27F4682C00283DA5 /* pattern17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern17.cpp; sourceTree = "<group>"; };
@@ -194,6 +200,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA123E2B282654ED00755CA7 /* DigitInNumber */ = {
+			isa = PBXGroup;
+			children = (
+				FA123E2C282654FF00755CA7 /* DigitInNumber.cpp */,
+				FA123E2D282654FF00755CA7 /* DigitInNumber.hpp */,
+			);
+			path = DigitInNumber;
+			sourceTree = "<group>";
+		};
 		FA46704A27E4862B00AB3529 = {
 			isa = PBXGroup;
 			children = (
@@ -375,6 +390,8 @@
 		FA60EC182825BD6B0098D31E /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				FA123E2B282654ED00755CA7 /* DigitInNumber */,
+				FA60EC242825C4300098D31E /* NumberTillN */,
 				FA60EC202825C0950098D31E /* Power */,
 				FA60EC1C2825BDD40098D31E /* Fctorial */,
 				FA60EC192825BD760098D31E /* Recursion.cpp */,
@@ -399,6 +416,15 @@
 				FA60EC222825C09F0098D31E /* Power.hpp */,
 			);
 			path = Power;
+			sourceTree = "<group>";
+		};
+		FA60EC242825C4300098D31E /* NumberTillN */ = {
+			isa = PBXGroup;
+			children = (
+				FA60EC252825C4450098D31E /* NumberTillN.cpp */,
+				FA60EC262825C4450098D31E /* NumberTillN.hpp */,
+			);
+			path = NumberTillN;
 			sourceTree = "<group>";
 		};
 		FA91B32027F6448A00283DA5 /* Array */ = {
@@ -568,6 +594,7 @@
 				FA46706C27E4BA3900AB3529 /* allNumToN.cpp in Sources */,
 				FAD9793A27E613C1005DF616 /* pattern14.cpp in Sources */,
 				FAD9793D27E6E33E005DF616 /* pattern15.cpp in Sources */,
+				FA123E2E282654FF00755CA7 /* DigitInNumber.cpp in Sources */,
 				FA91B32627F8179500283DA5 /* SumOfElementArray.cpp in Sources */,
 				FAD9792127E50E53005DF616 /* pattern6.cpp in Sources */,
 				FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */,
@@ -625,6 +652,7 @@
 				FAD9793F27E716EF005DF616 /* pattern16.cpp in Sources */,
 				FAE97AEB2817443E004B6E44 /* AllPrefix.cpp in Sources */,
 				FA91B34027FF697100283DA5 /* BinarySearch.cpp in Sources */,
+				FA60EC272825C4450098D31E /* NumberTillN.cpp in Sources */,
 				FA054AFF27EBAA30007B7AE9 /* DecimalToBinary.cpp in Sources */,
 				FAE97AE7281741A2004B6E44 /* StringCompare.cpp in Sources */,
 				FAD9793427E5DE8A005DF616 /* pattern11.cpp in Sources */,

@@ -7,6 +7,10 @@
 
 #include "Recursion.hpp"
 #include <iostream>
+#include "NumberTillN.hpp"
+#include "Factorial.hpp"
+#include "Power.hpp"
+#include "DigitInNumber.hpp"
 
 using namespace std;
 
@@ -27,10 +31,36 @@ void powerBase() {
     cout << "Iterative apporach : powe is " <<  i_power(base, pow)<< endl;
     cout << "Recursive apporach : power is " <<  r_power(base, pow)<< endl;
 }
+
+void numberTillN() {
+    int n;
+    cout << "Enter your number to get printed till : ";
+    cin >> n;
+    cout << "Iterative apporach : Print number is "  << endl;
+    i_printTillN(n);
+    cout << "Recursive apporach : Print number is "  << endl;
+    r_printTillN(n);
+}
+
+
+
+void digitInNumberCount() {
+    int n;
+    cout << "Enter your number to count the digit : ";
+    cin >> n;
+    cout << "Iterative apporach : Print number  count:  "<< i_digitInNumber(n) << endl;
+    
+    cout << "Recursive apporach : Print number count :  " << r_digitInNumber(n)  << endl;
+    
+}
 int main() {
     cout << "Recursion" << endl;
     
-    powerBase();
+    
+    
+    digitInNumberCount();
+//    numberTillN();
+//    powerBase();
 //    factorial();
 }
 
