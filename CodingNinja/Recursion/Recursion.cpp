@@ -11,6 +11,8 @@
 #include "Factorial.hpp"
 #include "Power.hpp"
 #include "DigitInNumber.hpp"
+#include "Fibonaci.hpp"
+
 
 using namespace std;
 
@@ -53,12 +55,22 @@ void digitInNumberCount() {
     cout << "Recursive apporach : Print number count :  " << r_digitInNumber(n)  << endl;
     
 }
+
+void nThFib() {
+    int n;
+    cout << "Enter your number to find fiboncaci : ";
+    cin >> n ;
+    cout << endl;
+    cout << "Iterative apporach : nth fib " <<  i_NthFib(n)<< endl;
+    cout << "Recursive apporach : nth fib is " << r_NthFib(n) << endl;
+}
 int main() {
     cout << "Recursion" << endl;
     
     
+    nThFib();
     
-    digitInNumberCount();
+//    digitInNumberCount();
 //    numberTillN();
 //    powerBase();
 //    factorial();
