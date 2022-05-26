@@ -21,10 +21,7 @@ int i_NthFib(int n) {
         sec_small  = result;
         i++;
     }
-    return sec_small;
-    
-    
-    
+    return sec_small; 
 }
 
 int r_NthFib(int n) {

@@ -12,6 +12,8 @@
 #include "Power.hpp"
 #include "DigitInNumber.hpp"
 #include "Fibonaci.hpp"
+#include "ArraySorted.hpp"
+#include "SumOfArray.hpp"
 
 
 using namespace std;
@@ -64,11 +66,44 @@ void nThFib() {
     cout << "Iterative apporach : nth fib " <<  i_NthFib(n)<< endl;
     cout << "Recursive apporach : nth fib is " << r_NthFib(n) << endl;
 }
+
+
+void isArraySorted() {
+    int n;
+    cout << "Enter Size of your array : ";
+    cin >> n ;
+    int * array = new int [n];
+    cout << "Iterative apporach : is Array sorted " <<  i_IsArraySorted(array, n)<< endl;
+    cout << "Recursive apporach : is Array sorted " <<  i_IsArraySorted(array, n)<< endl;
+    cout << endl;
+    
+}
+
+void sumOfArrayElement(){
+    int n;
+    cout << "Enter the size of array" << endl;
+    cin >> n;
+    int * array = new int [n];
+    int i = 0;
+    while (i< n) {
+        cin >> array[i];
+        i++;
+    }
+    
+    cout << "Iterative apporach : sum of array  " << sumOfArrayIterative(array, n)<< endl;
+    cout << "Recursive apporach : sum of array  " <<  sumOfArrayRecursive(array, n)<< endl;
+
+
+}
 int main() {
     cout << "Recursion" << endl;
     
     
-    nThFib();
+    
+    
+    sumOfArrayElement();
+    
+//    nThFib();
     
 //    digitInNumberCount();
 //    numberTillN();
