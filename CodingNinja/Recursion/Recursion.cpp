@@ -15,7 +15,7 @@
 #include "ArraySorted.hpp"
 #include "SumOfArray.hpp"
 #include "FIndNumber.hpp"
-
+#include "FirstIndex.hpp"
 
 
 using namespace std;
@@ -115,6 +115,30 @@ void findNumber() {
     cout << "Iterative approach  for finding number : " << checkNumberIterative(arr, n, f) << endl;
     cout << "Recursive approach  for finding number : " << checkNumberRecursive(arr, n, f)<< endl;
 }
+
+
+
+
+void findELementFirstOccurancePosition(){
+    
+    
+    int size,  element;
+    cout << "Enter the size of array : " ;
+    cin >> size;
+    
+    cout << "enter the element to find the occrance position :" ;
+    cin >> element;
+    int * arr = new int [size];
+    
+    cout << "enter the elements" << endl;
+
+    int i = 0;
+    while (i < size) {
+        cin >> arr[i];
+        i++;
+    }
+    cout << "Performing operation ....." << endl;
+}
 int main() {
     cout << "Recursion" << endl;
     
@@ -122,9 +146,9 @@ int main() {
     
     
     
-    findNumber();
+    findELementFirstOccurancePosition();
+//    findNumber();
 //    sumOfArrayElement();
-    
 //    nThFib();
     
 //    digitInNumberCount();
