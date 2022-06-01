@@ -56,6 +56,7 @@
 		FAB162B427EA41D500972B30 /* AllPrime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB162B327EA41D500972B30 /* AllPrime.cpp */; };
 		FAB162B627EA55D500972B30 /* ReverseNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB162B527EA55D500972B30 /* ReverseNumber.cpp */; };
 		FAD94C1C2840072700E6DE7F /* SumOfArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD94C1A2840072700E6DE7F /* SumOfArray.cpp */; };
+		FAD94C2028400EAA00E6DE7F /* FIndNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD94C1E28400EAA00E6DE7F /* FIndNumber.cpp */; };
 		FAD9791927E4FCA4005DF616 /* pattern1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9791827E4FCA4005DF616 /* pattern1.cpp */; };
 		FAD9791B27E4FF12005DF616 /* pattern2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9791A27E4FF12005DF616 /* pattern2.cpp */; };
 		FAD9791D27E50311005DF616 /* pattern3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD9791C27E50311005DF616 /* pattern3.cpp */; };
@@ -168,6 +169,8 @@
 		FAB162B527EA55D500972B30 /* ReverseNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseNumber.cpp; sourceTree = "<group>"; };
 		FAD94C1A2840072700E6DE7F /* SumOfArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumOfArray.cpp; sourceTree = "<group>"; };
 		FAD94C1B2840072700E6DE7F /* SumOfArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SumOfArray.hpp; sourceTree = "<group>"; };
+		FAD94C1E28400EAA00E6DE7F /* FIndNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FIndNumber.cpp; sourceTree = "<group>"; };
+		FAD94C1F28400EAA00E6DE7F /* FIndNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FIndNumber.hpp; sourceTree = "<group>"; };
 		FAD9791827E4FCA4005DF616 /* pattern1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern1.cpp; sourceTree = "<group>"; };
 		FAD9791A27E4FF12005DF616 /* pattern2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern2.cpp; sourceTree = "<group>"; };
 		FAD9791C27E50311005DF616 /* pattern3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern3.cpp; sourceTree = "<group>"; };
@@ -417,6 +420,7 @@
 		FA60EC182825BD6B0098D31E /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				FAD94C1D28400E9D00E6DE7F /* FindNumber */,
 				FAD94C192840071900E6DE7F /* SumOfArray */,
 				FA123E3528276CFA00755CA7 /* SortedArray */,
 				FA123E31282767BC00755CA7 /* FibonaciNumber */,
@@ -511,6 +515,15 @@
 				FAD94C1B2840072700E6DE7F /* SumOfArray.hpp */,
 			);
 			path = SumOfArray;
+			sourceTree = "<group>";
+		};
+		FAD94C1D28400E9D00E6DE7F /* FindNumber */ = {
+			isa = PBXGroup;
+			children = (
+				FAD94C1E28400EAA00E6DE7F /* FIndNumber.cpp */,
+				FAD94C1F28400EAA00E6DE7F /* FIndNumber.hpp */,
+			);
+			path = FindNumber;
 			sourceTree = "<group>";
 		};
 		FAD9793B27E614BB005DF616 /* patternProblem */ = {
@@ -636,6 +649,7 @@
 				FAD9793D27E6E33E005DF616 /* pattern15.cpp in Sources */,
 				FA123E2E282654FF00755CA7 /* DigitInNumber.cpp in Sources */,
 				FA91B32627F8179500283DA5 /* SumOfElementArray.cpp in Sources */,
+				FAD94C2028400EAA00E6DE7F /* FIndNumber.cpp in Sources */,
 				FAD9792127E50E53005DF616 /* pattern6.cpp in Sources */,
 				FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */,
 				FA91B33427F8F42F00283DA5 /* ArrangementOfArray.cpp in Sources */,

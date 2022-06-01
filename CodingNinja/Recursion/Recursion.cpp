@@ -14,6 +14,8 @@
 #include "Fibonaci.hpp"
 #include "ArraySorted.hpp"
 #include "SumOfArray.hpp"
+#include "FIndNumber.hpp"
+
 
 
 using namespace std;
@@ -95,13 +97,33 @@ void sumOfArrayElement(){
 
 
 }
+
+void findNumber() {
+    
+    cout << "Enter the size of array to find numnber: " ;
+    int n, f;
+    cin >> n;
+    
+    cout << "Enter number to find : ";
+    cin >>f;
+    int * arr = new int[n];
+    int i = 0;
+    while (i < n) {
+        cin >> arr[i];
+        i++;
+    }
+    cout << "Iterative approach  for finding number : " << checkNumberIterative(arr, n, f) << endl;
+    cout << "Recursive approach  for finding number : " << checkNumberRecursive(arr, n, f)<< endl;
+}
 int main() {
     cout << "Recursion" << endl;
     
     
     
     
-    sumOfArrayElement();
+    
+    findNumber();
+//    sumOfArrayElement();
     
 //    nThFib();
     
