@@ -170,17 +170,14 @@ void findElementLastOccurance() {
     }
     
     
-    cout << "Iterative apporach : first index of number  " << findLastIndexInArrayIterative(arr, size, element)<< endl;
-    cout << "Recursive apporach : first index of number  " << findLastIndexInArrayRecursivly(arr, size, element)<< endl;
+    cout << "Iterative apporach : last index of number  " << findLastIndexInArrayIterative(arr, size, element)<< endl;
+    cout << "Recursive apporach :  last index of number  " << lastIndex(arr, size, element)<< endl;
   
     
     
 }
 int main() {
     cout << "Recursion" << endl;
-    
-    
-    
     findElementLastOccurance();
     
 //    findELementFirstOccurancePosition();

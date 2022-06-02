@@ -9,7 +9,7 @@
 #define LastIndexInArray_hpp
 
 #include <stdio.h>
-int findLastIndexInArrayRecursivly(int *arr, int size, int element);
+int lastIndex(int input[], int size, int x);
 int findLastIndexInArrayIterative(int *arr, int size, int element);
 
 #endif /* LastIndexInArray_hpp */
