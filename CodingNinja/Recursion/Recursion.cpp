@@ -16,6 +16,7 @@
 #include "SumOfArray.hpp"
 #include "FIndNumber.hpp"
 #include "FirstIndex.hpp"
+#include "LastIndexInArray.hpp"
 
 
 using namespace std;
@@ -142,15 +143,47 @@ void findELementFirstOccurancePosition(){
     
     cout << "Iterative apporach : first index of number  " << returnFirstIndexOfElementIterative(arr, element, size)<< endl;
     cout << "Recursive apporach : first index of number  " << returnFirstIndexOfElementRecursivly(arr, element, size) + 1<< endl;
+
+    
+}
+
+
+void findElementLastOccurance() {
+    
+    int size, element;
+    
+    cout << "Enter size of your array : ";
+    cin >> size;
+    
+    cout << "Enter element to search the last occurance : ";
+    cin >> element;
+    
+    cout << "Enter your elements : ";
+    int  * arr = new int [size];
+
+    int i = 0;
+    
+    while (i < size) {
+        cout << "Element at position " << i + 1 << " : ";
+        cin >> arr[i];
+        i++;
+    }
+    
+    
+    cout << "Iterative apporach : first index of number  " << findLastIndexInArrayIterative(arr, size, element)<< endl;
+    cout << "Recursive apporach : first index of number  " << findLastIndexInArrayRecursivly(arr, size, element)<< endl;
+  
+    
+    
 }
 int main() {
     cout << "Recursion" << endl;
     
     
     
+    findElementLastOccurance();
     
-    
-    findELementFirstOccurancePosition();
+//    findELementFirstOccurancePosition();
 //    findNumber();
 //    sumOfArrayElement();
 //    nThFib();

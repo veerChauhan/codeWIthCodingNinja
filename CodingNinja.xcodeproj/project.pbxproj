@@ -41,6 +41,7 @@
 		FA60EC272825C4450098D31E /* NumberTillN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA60EC252825C4450098D31E /* NumberTillN.cpp */; };
 		FA758BDA27F2514A00B5AE0E /* SqaureRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */; };
 		FA78BED52847F73500A2471B /* FirstIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA78BED32847F73500A2471B /* FirstIndex.cpp */; };
+		FA78BED9284946AC00A2471B /* LastIndexInArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA78BED7284946AC00A2471B /* LastIndexInArray.cpp */; };
 		FA91B31D27F398E800283DA5 /* ValidSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31C27F398E800283DA5 /* ValidSequence.cpp */; };
 		FA91B31F27F4682C00283DA5 /* pattern17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B31E27F4682C00283DA5 /* pattern17.cpp */; };
 		FA91B32227F6449A00283DA5 /* ArraInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA91B32127F6449A00283DA5 /* ArraInput.cpp */; };
@@ -153,6 +154,8 @@
 		FA758BD927F2514A00B5AE0E /* SqaureRoot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SqaureRoot.cpp; sourceTree = "<group>"; };
 		FA78BED32847F73500A2471B /* FirstIndex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FirstIndex.cpp; sourceTree = "<group>"; };
 		FA78BED42847F73500A2471B /* FirstIndex.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FirstIndex.hpp; sourceTree = "<group>"; };
+		FA78BED7284946AC00A2471B /* LastIndexInArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LastIndexInArray.cpp; sourceTree = "<group>"; };
+		FA78BED8284946AC00A2471B /* LastIndexInArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LastIndexInArray.hpp; sourceTree = "<group>"; };
 		FA91B31C27F398E800283DA5 /* ValidSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSequence.cpp; sourceTree = "<group>"; };
 		FA91B31E27F4682C00283DA5 /* pattern17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pattern17.cpp; sourceTree = "<group>"; };
 		FA91B32127F6449A00283DA5 /* ArraInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraInput.cpp; sourceTree = "<group>"; };
@@ -423,6 +426,7 @@
 		FA60EC182825BD6B0098D31E /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				FA78BED62849469900A2471B /* LastIndexInArray */,
 				FA78BED22847F72700A2471B /* FirstIndex */,
 				FAD94C1D28400E9D00E6DE7F /* FindNumber */,
 				FAD94C192840071900E6DE7F /* SumOfArray */,
@@ -472,6 +476,15 @@
 				FA78BED42847F73500A2471B /* FirstIndex.hpp */,
 			);
 			path = FirstIndex;
+			sourceTree = "<group>";
+		};
+		FA78BED62849469900A2471B /* LastIndexInArray */ = {
+			isa = PBXGroup;
+			children = (
+				FA78BED7284946AC00A2471B /* LastIndexInArray.cpp */,
+				FA78BED8284946AC00A2471B /* LastIndexInArray.hpp */,
+			);
+			path = LastIndexInArray;
 			sourceTree = "<group>";
 		};
 		FA91B32027F6448A00283DA5 /* Array */ = {
@@ -715,6 +728,7 @@
 				FA60EC142823005B0098D31E /* DynamicAllocation.cpp in Sources */,
 				FAD9792327E5AF49005DF616 /* salaryCalculator.cpp in Sources */,
 				FA054AFD27EBA964007B7AE9 /* BinaryToDecimal.cpp in Sources */,
+				FA78BED9284946AC00A2471B /* LastIndexInArray.cpp in Sources */,
 				FA91B32827F86A3C00283DA5 /* LinierSearch.cpp in Sources */,
 				FA4717422815F7FD00C16EE4 /* TrimSpaceInString.cpp in Sources */,
 				FAD9792927E5C4F4005DF616 /* pattern8.cpp in Sources */,
