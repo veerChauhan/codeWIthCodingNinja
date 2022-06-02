@@ -138,6 +138,10 @@ void findELementFirstOccurancePosition(){
         i++;
     }
     cout << "Performing operation ....." << endl;
+    
+    
+    cout << "Iterative apporach : first index of number  " << returnFirstIndexOfElementIterative(arr, element, size)<< endl;
+    cout << "Recursive apporach : first index of number  " << returnFirstIndexOfElementRecursivly(arr, element, size) + 1<< endl;
 }
 int main() {
     cout << "Recursion" << endl;

@@ -9,7 +9,7 @@
 #define FirstIndex_hpp
 
 #include <stdio.h>
-int returnFirstIndexOfElementIterative(int * arr, int x);
-int returnFirstIndexOfElementRecursivly(int * arr, int x);
+int returnFirstIndexOfElementIterative(int * arr, int element, int size);
+int returnFirstIndexOfElementRecursivly(int * arr, int element, int size);
 
 #endif /* FirstIndex_hpp */
